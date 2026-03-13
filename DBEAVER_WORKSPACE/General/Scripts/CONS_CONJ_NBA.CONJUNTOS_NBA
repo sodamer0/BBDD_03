@@ -1,0 +1,62 @@
+/*4.	Base de datos NBA (4 tablas).
+ 
+Muestra los nombres y las ciudades de los equipos cuya división sea la Central o la Pacific.
+
+Muestra el jugador, puntos y asistencias por partido, de los jugadores que hayan realizado 3 ó 5 rebotes de media por partido.
+
+Muestra el nombre y procedencia de los jugadores que procedan de Utah, Michigan, Villanova o Utah.
+
+Muestra los equipos locales que hayan logrado 74, 86, 90 ó 100 puntos.
+
+*/
+
+-- Muestra los nombres y las ciudades de los equipos cuya división sea la Central o la Pacific.
+
+SELECT nombre, ciudad, division
+FROM equipos e 
+WHERE e.Division IN ("Central", "Pacific")
+ORDER BY e.Division ;
+
+
+-- Muestra el jugador, puntos y asistencias por partido, de los jugadores que hayan realizado 3 ó 5 rebotes de media por partido.
+
+SELECT jugador, puntos_por_partido, asistencias_por_partido, e.Rebotes_por_partido 
+FROM estadisticas e
+WHERE Rebotes_por_partido IN (3,5)
+ORDER BY e.Rebotes_por_partido;
+
+
+SELECT jugador, puntos_por_partido, asistencias_por_partido, e.Rebotes_por_partido 
+FROM estadisticas e
+WHERE e.Rebotes_por_partido = 3 OR e.Rebotes_por_partido  = 5
+ORDER BY e.Rebotes_por_partido;
+
+-- Muestra el nombre y procedencia de los jugadores que procedan de Utah, Michigan, Villanova o Utah.
+
+SELECT Nombre, Procedencia
+FROM jugadores
+WHERE Procedencia IN ("Utah", "Michigan", "Villanova")
+ORDER BY Procedencia ;
+
+SELECT Nombre, Procedencia
+FROM jugadores
+WHERE Procedencia = "Utah" OR Procedencia = "Michigan" OR Procedencia ="Villanova"
+ORDER BY Procedencia;
+
+-- Muestra el nombre y procedencia de los jugadores que procedan de Utah, Michigan, Villanova o Utah.
+
+SELECT DISTINCT equipo_local, p.puntos_local, p.temporada  
+FROM partidos p 
+WHERE p.puntos_local IN (74, 86, 90, 100)
+ORDER BY equipo_local;
+
+SELECT DISTINCT equipo_local, p.puntos_local, p.temporada  
+FROM partidos p 
+WHERE p.puntos_local IN (74, 86, 90, 100)
+ORDER BY p.temporada ;
+
+
+
+
+
+

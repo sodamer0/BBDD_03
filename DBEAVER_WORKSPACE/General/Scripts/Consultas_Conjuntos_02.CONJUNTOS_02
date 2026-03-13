@@ -1,0 +1,39 @@
+/*
+ 
+2.	Base de datos Gestión de Empleados (2 tablas).
+Muestra los datos de los departamentos Desarrollo, Sistemas y Contabilidad.
+
+Muestra los datos de los departamentos cuyo presupuesto no sea 0.
+
+Muestra los datos de los empleados cuyo departamento sea el 2, 4 ó 5.
+
+Muestra los datos de los empleados apellidados Ruiz o Salas.
+
+*/
+
+USE empleados;
+
+-- Muestra los datos de los departamentos Desarrollo, Sistemas y Contabilidad.
+
+SELECT *
+FROM departamento d 
+WHERE nombre IN ("Desarrollo", "Sistemas", "Contabilidad");
+
+
+-- Muestra los datos de los departamentos cuyo presupuesto no sea 0.
+
+SELECT *
+FROM  departamento d
+WHERE d.presupuesto != 0;
+
+-- Muestra los datos de los empleados cuyo departamento sea el 2, 4 ó 5.
+
+SELECT *
+FROM empleado e  
+WHERE e.codigo_departamento IN (2, 4, 5);
+
+-- Muestra los datos de los empleados apellidados Ruiz o Salas.
+
+SELECT *
+FROM empleado e 
+WHERE e.apellido1 IN ("Ruiz", "Salas") OR e.apellido2  IN ("Ruiz", "Salas");

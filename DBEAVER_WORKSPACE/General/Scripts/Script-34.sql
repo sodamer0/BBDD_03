@@ -2,7 +2,7 @@
 -- 1. Conexión con la base de datos EquinoTEIS
 -- --------------------------------------------------------------------------------------------
 -- Conexión con el usuario recién creado
-USE	EquinoTEIS;
+
 
 -- --------------------------------------------------------------------------------------------
 -- 2. Eliminación del contenido de todas las tablas
@@ -42,11 +42,11 @@ INSERT INTO Propietario VALUES (4,'Lúa Sabela','Moscoso Ameixeiras','500444444'
 -- --------------------------------------------------------------------------------------------
 -- 3.3. Inserciones en la tabla Veterinario (5 tuplas)
 -- --------------------------------------------------------------------------------------------
-INSERT INTO Veterinario VALUES (1,'Antón Lois','Rebordelos Chao','Cirurxía Equina','554365111','anton.lois@vetgal.com',12);
-INSERT INTO Veterinario VALUES (2,'Iria Aldara','Piñeiro Vilariño','Traumatoloxía Deportiva','545622222','iria.aldara@vetgal.com',8);
-INSERT INTO Veterinario VALUES (3,'Xurxo Anxo','Bértolo Soutomaior','Odontoloxía Equina','534533333','xurxo.anxo@vetgal.com',5);
-INSERT INTO Veterinario VALUES (4,'Sabela Uxía','Lamas Figueroa','Reprodución e Xenética','578644444','sabela.uxia@vetgal.com',10);
-INSERT INTO Veterinario VALUES (5,'Brais Martiño','Carballo Taboada','Medicina Xeral','456555555','brais.martino@vetgal.com',6);
+INSERT INTO Veterinario VALUES (1,'Antón Lois','Rebordelos Chao','Cirurxía Equina','611111111','anton.lois@vetgal.com',12);
+INSERT INTO Veterinario VALUES (2,'Iria Aldara','Piñeiro Vilariño','Traumatoloxía Deportiva','622222222','iria.aldara@vetgal.com',8);
+INSERT INTO Veterinario VALUES (3,'Xurxo Anxo','Bértolo Soutomaior','Odontoloxía Equina','633333333','xurxo.anxo@vetgal.com',5);
+INSERT INTO Veterinario VALUES (4,'Sabela Uxía','Lamas Figueroa','Reprodución e Xenética','644444444','sabela.uxia@vetgal.com',10);
+INSERT INTO Veterinario VALUES (5,'Brais Martiño','Carballo Taboada','Medicina Xeral','655555555','brais.martino@vetgal.com',6);
 
 -- --------------------------------------------------------------------------------------------
 -- 3.4. Inserciones en la tabla Caballo (20 tuplas)
@@ -76,17 +76,17 @@ INSERT INTO Caballo VALUES (20,'Valiente','2014-12-12','Macho','Castaño',520,1.
 -- 3.5. Inserciones en la tabla Competicion (11 tuplas)
 -- --------------------------------------------------------------------------------------------
 
-INSERT INTO Competicion VALUES (1,'Gran Premio Teis','2023-05-10','Doma','Vigo',10000,'Nacional');
-INSERT INTO Competicion VALUES (2,'Salto Teis Open','2023-06-15','Salto','Teis',15000,'Internacional');
-INSERT INTO Competicion VALUES (3,'Grand National TEIS','2023-07-20','Carrera','Vigo',8000,'Regional');
-INSERT INTO Competicion VALUES (4,'Liga Teis','2023-04-12','Concurso Completo','Cesantes',9000,'Nacional');
-INSERT INTO Competicion VALUES (5,'Trofeo Primavera Teis','2023-03-18','Doma','Arcade',7000,'Regional');
-INSERT INTO Competicion VALUES (6,'Campeonato Nacional de Teis','2023-09-01','Carrera','Teis',20000,'Nacional');
-INSERT INTO Competicion VALUES (7,'Derby Ibérico Teis','2023-08-22','Carrera','Redondela',12000,'Internacional');
-INSERT INTO Competicion VALUES (8,'Copa Sur Teis','2023-02-14','Doma','Redondela',6000,'Regional');
-INSERT INTO Competicion VALUES (9,'Masters Equino Teis','2023-10-10','Salto','Teis',25000,'Internacional');
-INSERT INTO Competicion VALUES (10,'Reto del Norte Teis','2023-11-05','Carrera','Vigo',11000,'Nacional');
-INSERT INTO Competicion VALUES (11,'Copa Invierno Teis','2023-12-12','Concurso Completo','Arcade',9500,'Regional');
+INSERT INTO Competicion VALUES (1,'Gran Premio Teis','2023-05-10','Doma','Sevilla',10000,'Nacional');
+INSERT INTO Competicion VALUES (2,'Salto Teis Open','2023-06-15','Salto','Madrid',15000,'Internacional');
+INSERT INTO Competicion VALUES (3,'Copa Valencia','2023-07-20','Carrera','Valencia',8000,'Regional');
+INSERT INTO Competicion VALUES (4,'Liga Teis','2023-04-12','Concurso Completo','Granada',9000,'Nacional');
+INSERT INTO Competicion VALUES (5,'Trofeo Primavera Teis','2023-03-18','Doma','Córdoba',7000,'Regional');
+INSERT INTO Competicion VALUES (6,'Campeonato Nacional de Teis','2023-09-01','Salto','Madrid',20000,'Nacional');
+INSERT INTO Competicion VALUES (7,'Derby Ibérico Teis','2023-08-22','Carrera','Lisboa',12000,'Internacional');
+INSERT INTO Competicion VALUES (8,'Copa Sur Teis','2023-02-14','Doma','Málaga',6000,'Regional');
+INSERT INTO Competicion VALUES (9,'Masters Equino Teis','2023-10-10','Salto','Barcelona',25000,'Internacional');
+INSERT INTO Competicion VALUES (10,'Reto del Norte Teis','2023-11-05','Carrera','Bilbao',11000,'Nacional');
+INSERT INTO Competicion VALUES (11,'Copa Invierno Teis','2023-12-12','Concurso Completo','Zaragoza',9500,'Regional');
 
 -- --------------------------------------------------------------------------------------------
 -- 3.6. Inserciones en la tabla RevisiónVeterinaria (40 tuplas)

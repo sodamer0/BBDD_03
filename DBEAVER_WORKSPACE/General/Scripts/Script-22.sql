@@ -1,0 +1,1 @@
+Select concat(nombre, " ", apellido1, " ", apellidos as "CLIENTE") from cliente;
