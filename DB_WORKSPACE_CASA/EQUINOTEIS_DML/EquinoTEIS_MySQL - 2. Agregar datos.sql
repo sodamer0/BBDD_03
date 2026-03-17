@@ -1,12 +1,12 @@
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 -- 1. Conexión con la base de datos EquinoTEIS
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 -- Conexión con el usuario recién creado
 USE	EquinoTEIS;
 
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 -- 2. Eliminación del contenido de todas las tablas
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 DELETE FROM Participacion;
 DELETE FROM RevisionVeterinaria;
 DELETE FROM Competicion;
@@ -15,13 +15,13 @@ DELETE FROM Veterinario;
 DELETE FROM Propietario;
 DELETE FROM Raza;
 
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 -- 3. Inserción de datos
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 -- 3.1. Inserciones en la tabla Raza (7 tuplas)
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 
 INSERT INTO Raza VALUES (1,'Pura Raza Española','España',1.65,500,'Noble',1500);
 INSERT INTO Raza VALUES (2,'Árabe','Arabia',1.55,450,'Resistente',1200);
@@ -31,26 +31,26 @@ INSERT INTO Raza VALUES (5,'Shire','Reino Unido',1.80,900,'Fuerte',1800);
 INSERT INTO Raza VALUES (6,'Mustang','Estados Unidos',1.50,400,'Salvaje',1850);
 INSERT INTO Raza VALUES (7,'Andaluz','España',1.63,520,'Elegante',1400);
 
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 -- 3.2. Inserciones en la tabla Propietario (4 tuplas)
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 INSERT INTO Propietario VALUES (1,'Xoán Breogán','Loureiro Fandiño','500111111','xoan.breogan@email.com','Ribeira','2020-01-10');
 INSERT INTO Propietario VALUES (2,'Uxía Mar','Soutelo Lestón','500222222','uxia.mar@email.com','Noia','2021-03-15');
 INSERT INTO Propietario VALUES (3,'Bieito Xián','Portocarrero Neira','500333333','bieito.xian@email.com','Vilagarcía','2019-07-20');
 INSERT INTO Propietario VALUES (4,'Lúa Sabela','Moscoso Ameixeiras','500444444','lua.sabela@email.com','Melide','2022-05-01');
 
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 -- 3.3. Inserciones en la tabla Veterinario (5 tuplas)
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 INSERT INTO Veterinario VALUES (1,'Antón Lois','Rebordelos Chao','Cirurxía Equina','554365111','anton.lois@vetgal.com',12);
 INSERT INTO Veterinario VALUES (2,'Iria Aldara','Piñeiro Vilariño','Traumatoloxía Deportiva','545622222','iria.aldara@vetgal.com',8);
 INSERT INTO Veterinario VALUES (3,'Xurxo Anxo','Bértolo Soutomaior','Odontoloxía Equina','534533333','xurxo.anxo@vetgal.com',5);
 INSERT INTO Veterinario VALUES (4,'Sabela Uxía','Lamas Figueroa','Reprodución e Xenética','578644444','sabela.uxia@vetgal.com',10);
 INSERT INTO Veterinario VALUES (5,'Brais Martiño','Carballo Taboada','Medicina Xeral','456555555','brais.martino@vetgal.com',6);
 
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 -- 3.4. Inserciones en la tabla Caballo (20 tuplas)
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 INSERT INTO Caballo VALUES (1,'Relámpago','2015-03-12','Macho','Negro',520,1.68,'Excelente',1,1);
 INSERT INTO Caballo VALUES (2,'Estrella','2017-06-22','Hembra','Blanco',480,1.60,'Bueno',2,2);
 INSERT INTO Caballo VALUES (3,'Furia','2014-01-10','Macho','Marrón',600,1.72,'Excelente',3,3);
@@ -72,9 +72,9 @@ INSERT INTO Caballo VALUES (18,'Nácar','2016-07-17','Hembra','Gris',470,1.60,'B
 INSERT INTO Caballo VALUES (19,'Centella','2015-11-21','Hembra','Marrón',500,1.65,'Excelente',6,1);
 INSERT INTO Caballo VALUES (20,'Valiente','2014-12-12','Macho','Castaño',520,1.68,'Bueno',7,2);
 
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 -- 3.5. Inserciones en la tabla Competicion (11 tuplas)
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 
 INSERT INTO Competicion VALUES (1,'Gran Premio Teis','2023-05-10','Doma','Vigo',10000,'Nacional');
 INSERT INTO Competicion VALUES (2,'Salto Teis Open','2023-06-15','Salto','Teis',15000,'Internacional');
@@ -88,9 +88,9 @@ INSERT INTO Competicion VALUES (9,'Masters Equino Teis','2023-10-10','Salto','Te
 INSERT INTO Competicion VALUES (10,'Reto del Norte Teis','2023-11-05','Carrera','Vigo',11000,'Nacional');
 INSERT INTO Competicion VALUES (11,'Copa Invierno Teis','2023-12-12','Concurso Completo','Arcade',9500,'Regional');
 
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 -- 3.6. Inserciones en la tabla RevisiónVeterinaria (40 tuplas)
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 INSERT INTO RevisionVeterinaria VALUES (1,'2023-01-10','Chequeo general','Vacunación',150,'Leve',1,1);
 INSERT INTO RevisionVeterinaria VALUES (2,'2023-02-12','Lesión muscular','Fisioterapia',300,'Moderada',3,2);
 INSERT INTO RevisionVeterinaria VALUES (3,'2023-03-05','Problema dental','Limpieza dental',200,'Leve',5,3);
@@ -132,9 +132,9 @@ INSERT INTO RevisionVeterinaria VALUES (38,'2023-08-14','Examen respiratorio','N
 INSERT INTO RevisionVeterinaria VALUES (39,'2023-09-19','Herida en pata','Vendaje y reposo',400,'Moderada',2,4);
 INSERT INTO RevisionVeterinaria VALUES (40,'2023-10-23','Problema digestivo','Dieta especial',350,'Moderada',3,5);
 
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 -- 3.7. Inserciones en la tabla Participacion (20 tuplas)
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
 INSERT INTO Participacion VALUES (1,1,1,75.50,95.00,5000,'Excelente desempeño');
 INSERT INTO Participacion VALUES (2,1,2,78.30,90.00,3000,'Buen desempeño');
 INSERT INTO Participacion VALUES (3,2,1,65.20,98.00,7000,'Victoria destacada');
@@ -156,5 +156,5 @@ INSERT INTO Participacion VALUES (18,10,3,61.00,89.00,3000,'Participación corre
 INSERT INTO Participacion VALUES (19,11,1,66.50,95.00,4500,'Excelente');
 INSERT INTO Participacion VALUES (20,11,2,69.00,90.00,3000,'Buen desempeño');
 
---------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------

@@ -1,0 +1,91 @@
+2026-03-17 22:53:45.741 - DBeaver 26.0.0.202603011816 is starting
+2026-03-17 22:53:45.743 - OS: Windows 11 10.0 (amd64)
+2026-03-17 22:53:45.743 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
+2026-03-17 22:53:45.743 - Install path: 'C:\Users\sanpc\AppData\Local\DBeaver'
+2026-03-17 22:53:45.744 - Instance path: 'file:/D:/SanVic/Documents/2025(02)/DAW_DUAL(2025-2026)/BASES DE DATOS(2025-2026)/BBDD_03/DB_WORKSPACE_CASA/'
+2026-03-17 22:53:45.746 - Memory available 64Mb/1024Mb
+2026-03-17 22:53:45.749 - Initialize desktop platform...
+2026-03-17 22:53:45.837 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.11.400.v20251107-0507]
+> Start Core Resource Management [org.eclipse.core.resources 3.23.100.v20251106-1705]
+> Start Team Support Core [org.eclipse.team.core 3.10.900.v20251104-0924]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.174.202603011816]
+> Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.4.700.v20250622-1644]
+> Start Internet Connection Management UI [org.eclipse.ui.net 1.5.500.v20250611-0855]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.800.v20250613-1119]
+2026-03-17 22:53:46.018 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
+> Start JFace Text [org.eclipse.jface.text 3.29.0.v20251112-0859]
+2026-03-17 22:53:46.173 - Initialize base platform...
+2026-03-17 22:53:46.184 - Platform initialized (435ms)
+2026-03-17 22:53:46.185 - Create display
+2026-03-17 22:53:46.278 - Starting instance server at http://localhost:61664
+2026-03-17 22:53:46.283 - Run workbench
+> Start Eclipse IDE UI [org.eclipse.ui.ide 3.22.800.v20251112-0859]
+> Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.17.1000.v20251023-0611]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.300.v20251112-1253]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.600.v20251023-1358]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.900.v20251023-1511]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.800.v20250916-0937]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.700.v20250916-0927]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.39.0.v20250910-1205]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.600.v20251023-0615]
+> Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.5.900.v20251007-0832]
+> Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.16.1000.v20251114-0005]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start DBeaver AI Model [org.jkiss.dbeaver.model.ai 2.0.17.202603011816]
+> Start DBeaver AI UI [org.jkiss.dbeaver.ui.ai 1.0.76.202603011816]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.700.v20251023-1511]
+2026-03-17 22:53:47.384 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.164.202603011816]
+2026-03-17 22:53:47.512 - Total database drivers: 128 (128)
+> Start Help System Core [org.eclipse.help 3.10.600.v20250613-0437]
+2026-03-17 22:53:47.593 - Create actions
+> Start Default Text Editor [org.eclipse.ui.editors 3.20.200.v20251125-0939]
+> Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.19.400.v20251105-0815]
+2026-03-17 22:53:48.683 - Initialize workbench window
+2026-03-17 22:53:48.696 - Finish initialization
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.174.202603011816]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.174.202603011816]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.171.202603011816]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.21.0.202512020742]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.24.0.202511201732]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.ui.editors.erd 3.1.15.202603011816]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.model.erd 1.1.15.202603011816]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.211.202603011816]
+2026-03-17 22:53:58.221 - Open [https://dbeaver.io/product/version.xml]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.166.202603011816]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.67.202603011816]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.259.202603011816]
+2026-03-17 22:54:07.727 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2026-03-17 22:54:07.769 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2026-03-17 22:54:31.988 - Open [https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom]
+2026-03-17 22:54:32.226 - Open [https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.pom]
+2026-03-17 22:54:32.295 - Open [https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.21.9/protobuf-parent-3.21.9.pom]
+2026-03-17 22:54:32.359 - Open [https://repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.21.9/protobuf-bom-3.21.9.pom]
+2026-03-17 22:54:33.528 - Open [https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.jar]
+2026-03-17 22:54:34.802 - Open [https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar]
+2026-03-17 22:54:35.332 - Connect with '127.0.0.1' (mysql8-19cfdcb192c-46a9d58dd7e87819)
+2026-03-17 22:54:35.363 - Execution context opened (127.0.0.1; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.198.202603011816]
+2026-03-17 22:54:35.454 - Execution context closed (127.0.0.1, 0)
+2026-03-17 22:55:16.162 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2026-03-17 22:55:16.188 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2026-03-17 22:56:05.715 - Connect with 'localhost' (mysql8-19cfdcc87bf-599078f3f03f726c)
+2026-03-17 22:56:05.716 - Execution context opened (localhost; Main; 1)
+2026-03-17 22:56:05.729 - Execution context closed (localhost, 1)
+2026-03-17 22:56:15.525 - Connect with 'localhost' (mysql8-19cfdccae10-a27e77460b6c597)
+2026-03-17 22:56:15.527 - Execution context opened (localhost; Main; 2)
+2026-03-17 22:56:15.529 - Execution context closed (localhost, 2)
+> Start Data Transfer UI [org.jkiss.dbeaver.data.transfer.ui 1.0.158.202603011816]
+2026-03-17 22:56:56.355 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2026-03-17 22:56:56.370 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2026-03-17 22:57:00.314 - Connect with 'localhost' (mysql8-19cfdcd5d05-32aa00b47f9ef70a)
+2026-03-17 22:57:00.315 - Execution context opened (localhost; Main; 3)
+2026-03-17 22:57:00.317 - Execution context closed (localhost, 3)
+2026-03-17 22:59:24.405 - Dispose navigator model
+2026-03-17 22:59:24.433 - DBeaver is stopping
+2026-03-17 22:59:24.437 - Stop instance server
+2026-03-17 22:59:25.441 - Instance server has been stopped
+2026-03-17 22:59:25.441 - DBeaver shutdown completed
+2026-03-17 22:59:25.467 - Shutdown desktop platform...
+2026-03-17 22:59:25.503 - Platform shutdown completed (36ms)

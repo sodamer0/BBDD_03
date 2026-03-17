@@ -1,0 +1,8 @@
+driver.selector.orderBy=score
+eclipse.preferences.version=1
+org.jkiss.dbeaver.core.confirm.dangerous_sql=always
+org.jkiss.dbeaver.core.confirm.drop_sql=always
+sample.database.canceled=true
+script.title.pattern=<${connectionName}>[${database}]_${fileName}
+tipOfTheDayInitializer.notFirstRun=true
+ui.auto.update.check.time=1773784438219
