@@ -95,3 +95,9 @@
 2026-03-17 23:31:29.704 - Execution context opened (localhost; SQLEditor <Script-1.sql>; 9)
 > Start Log View [org.eclipse.ui.views.log 1.4.1000.v20251030-0811]
 > Start DBeaver Tasks View [org.jkiss.dbeaver.tasks.ui.view 1.0.123.202603011816]
+2026-03-18 00:12:29.722 - Execution context closed (localhost, 8)
+2026-03-18 00:12:30.646 - Execution context closed (localhost, 9)
+2026-03-18 00:12:38.608 - Execution context opened (localhost; SQLEditor <Script-2.sql>; 10)
+2026-03-18 00:12:48.720 - Execution context closed (localhost, 10)
+2026-03-18 00:14:33.179 - Execution context opened (localhost; SQLEditor <Script-3.sql>; 11)
+2026-03-18 00:17:03.117 - Execution context opened (localhost; SQLEditor <Script-4.sql>; 12)
