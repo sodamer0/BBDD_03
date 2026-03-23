@@ -25,6 +25,9 @@
 					"@dbeaver-show-all-dbs@": "true"
 				},
 				"auth-model": "native"
+			},
+			"custom-properties": {
+				"transaction.auto.close.ttl": "14400"
 			}
 		}
 	},

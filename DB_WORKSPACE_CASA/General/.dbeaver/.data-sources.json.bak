@@ -7,22 +7,27 @@
 			"name": "localhost",
 			"save-password": true,
 			"configuration": {
-				"host": "localhost",
+				"host": "192.168.1.142",
 				"port": "3306",
-				"url": "jdbc:mysql://localhost:3306/",
+				"url": "jdbc:mysql://192.168.1.142:3306/",
 				"configurationType": "MANUAL",
 				"home": "mysql_client",
 				"type": "dev",
 				"closeIdleConnection": true,
 				"properties": {
-					"rewriteBatchedStatements": "true",
 					"connectTimeout": "20000",
-					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2,TLSv1.3"
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2,TLSv1.3",
+					"allowPublicKeyRetrieval": "TRUE",
+					"useSSL": "FALSE"
 				},
 				"provider-properties": {
 					"@dbeaver-show-all-dbs@": "true"
 				},
 				"auth-model": "native"
+			},
+			"custom-properties": {
+				"transaction.auto.close.ttl": "14400"
 			}
 		}
 	},
