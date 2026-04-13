@@ -1,21 +1,20 @@
-2026-03-17 18:47:42.302 - DBeaver 25.2.5.202511161745 is starting
-2026-03-17 18:47:42.302 - OS: Windows 11 10.0 (amd64)
-2026-03-17 18:47:42.302 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
-2026-03-17 18:47:42.303 - Install path: 'C:\Users\a25santiagopc\AppData\Local\DBeaver'
-2026-03-17 18:47:42.303 - Instance path: 'file:/F:/A25SANTIAGOPC/3ER.PARCIAL/BBDD_03/BBDD_03/DBEAVER_WORKSPACE/'
-2026-03-17 18:47:42.304 - Memory available 64Mb/1024Mb
-2026-03-17 18:47:42.315 - Create display
-2026-03-17 18:47:42.422 - Initialize desktop platform...
-2026-03-17 18:47:42.551 - BounceCastle bundle found. Use JCE provider BC
+2026-03-24 17:16:01.692 - DBeaver 25.2.5.202511161745 is starting
+2026-03-24 17:16:01.694 - OS: Windows 11 10.0 (amd64)
+2026-03-24 17:16:01.695 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
+2026-03-24 17:16:01.695 - Install path: 'C:\Users\a25santiagopc\AppData\Local\DBeaver'
+2026-03-24 17:16:01.696 - Instance path: 'file:/F:/A25SANTIAGOPC/3ER.PARCIAL/BBDD_03/BBDD_03/DBEAVER_CLASE/'
+2026-03-24 17:16:01.699 - Memory available 64Mb/1024Mb
+2026-03-24 17:16:01.723 - Create display
+2026-03-24 17:16:01.857 - Initialize desktop platform...
+2026-03-24 17:16:02.038 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.11.300.v20250607-0645]
 > Start Core Resource Management [org.eclipse.core.resources 3.23.0.v20250729-1759]
 > Start Núcleo del equipo de soporte [org.eclipse.team.core 3.10.800.v20250610-0708]
 > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.167.202511161745]
-2026-03-17 18:47:42.750 - Initialize base platform...
-2026-03-17 18:47:42.762 - Platform initialized (340ms)
-2026-03-17 18:47:42.866 - No port specified for the instance controller to connect to
-2026-03-17 18:47:42.918 - Starting instance server at http://localhost:58508
-2026-03-17 18:47:42.939 - Run workbench
+2026-03-24 17:16:02.417 - Initialize base platform...
+2026-03-24 17:16:02.432 - Platform initialized (575ms)
+2026-03-24 17:16:02.937 - Starting instance server at http://localhost:49674
+2026-03-24 17:16:02.967 - Run workbench
 > Start SWT del banco de trabajo de Eclipse e4 [org.eclipse.e4.ui.workbench.swt 0.17.900.v20250612-1000]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.200.v20250326-1945]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.500.v20250123-0754]
@@ -35,13 +34,13 @@ Warning: NLS unused message: Workbench_missingPropertyMessage in: org.eclipse.ui
 Warning: NLS unused message: UriHandlerPreferencePage_Warning_OtherApp in: org.eclipse.ui.internal.ide.messages
 > Start Editor de texto predeterminado [org.eclipse.ui.editors 3.20.100.v20250814-1056]
 > Start Entorno de trabajo [org.eclipse.ui.workbench.texteditor 3.19.300.v20250815-0722]
-2026-03-17 18:47:44.689 - Configure workbench window
+2026-03-24 17:16:14.377 - Configure workbench window
 > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.157.202511161745]
-2026-03-17 18:47:44.849 - Total database drivers: 127 (127)
+2026-03-24 17:16:14.669 - Total database drivers: 127 (127)
 > Start Núcleo del sistema de ayuda [org.eclipse.help 3.10.600.v20250613-0437]
-2026-03-17 18:47:44.985 - Create actions
-2026-03-17 18:47:45.633 - Initialize workbench window
-2026-03-17 18:47:45.648 - Finish initialization
+2026-03-24 17:16:14.771 - Create actions
+2026-03-24 17:16:15.717 - Initialize workbench window
+2026-03-24 17:16:15.735 - Finish initialization
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.167.202511161745]
 > Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.167.202511161745]
 Warning: NLS unused message: FindReplace_RegExCheckbox_label in: org.eclipse.ui.texteditor.EditorMessages
@@ -77,17 +76,35 @@ Warning: NLS unused message: FindReplace_FindNextButton_label in: org.eclipse.ui
 > Start Interfaz de usuario de manejo de conexión a Internet [org.eclipse.ui.net 1.5.500.v20250611-0855]
 > Start Internet Connection Management [org.eclipse.core.net 1.5.800.v20250613-1119]
 > Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.204.202511161745]
-2026-03-17 18:47:47.828 - Open [https://dbeaver.io/product/version.xml]
+2026-03-24 17:16:20.907 - Open [https://dbeaver.io/product/version.xml]
 > Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.164.202511161745]
 > Start GEF Classic Draw2d [org.eclipse.draw2d 3.20.100.202508011427]
 > Start GEF Classic GEF (MVC) [org.eclipse.gef 3.23.0.202507261623]
 > Start DBeaver ERD UI [org.jkiss.dbeaver.ui.editors.erd 3.1.8.202511161745]
 > Start DBeaver ERD Model [org.jkiss.dbeaver.model.erd 1.1.8.202511161745]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.60.202511161745]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.252.202511161745]
 > Start Consola [org.eclipse.ui.console 3.14.400.v20250607-0653]
 > Start Núcleo de depuración [org.eclipse.debug.core 3.23.100.v20250811-0711]
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.145.202511161745]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.159.202511161745]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.145.202511161745]
 > Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.62.202511161745]
-2026-03-17 18:52:59.533 - Dispose navigator model
-2026-03-17 18:52:59.628 - DBeaver is stopping
-2026-03-17 18:52:59.630 - Stop instance server
-2026-03-17 18:53:00.635 - Instance server has been stopped
-2026-03-17 18:53:00.635 - DBeaver shutdown completed
+2026-03-24 17:16:23.103 - Connect with '127.0.0.1' (mysql8-19cfd3acd0d-4238d1102f5d8a16)
+2026-03-24 17:16:23.171 - Execution context opened (127.0.0.1; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.191.202511161745]
+2026-03-24 17:16:23.614 - Execution context opened (127.0.0.1; Metadata; 1)
+2026-03-24 17:16:23.658 - Error reading SQL keywords: Unknown column 'RESERVED' in 'WHERE'
+2026-03-24 17:16:23.805 - Connected (mysql8-19cfd3acd0d-4238d1102f5d8a16, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2026-03-24 17:16:23.868 - Execution context opened (127.0.0.1; SQLEditor <Script-3.sql>; 2)
+> Start Data Transfer UI [org.jkiss.dbeaver.data.transfer.ui 1.0.151.202511161745]
+2026-03-24 17:19:08.464 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2026-03-24 17:19:08.539 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.151.202511161745]
+2026-03-24 17:23:38.849 - Error reading SQL keywords: Unknown column 'RESERVED' in 'WHERE'
+2026-03-24 17:25:42.281 - Execution context closed (127.0.0.1, 2)
+2026-03-24 17:25:42.736 - Dispose navigator model
+2026-03-24 17:25:42.828 - DBeaver is stopping
+2026-03-24 17:25:42.835 - Stop instance server
+2026-03-24 17:25:43.851 - Instance server has been stopped
+2026-03-24 17:25:43.851 - DBeaver shutdown completed
