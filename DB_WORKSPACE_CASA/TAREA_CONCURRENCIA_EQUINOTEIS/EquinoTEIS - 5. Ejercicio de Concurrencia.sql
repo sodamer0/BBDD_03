@@ -1,0 +1,148 @@
+#368CCE#368CCE#368CCE--------------------------------------------------------------------------------------------
+-- LABORATORIO DIDÁCTICO: Fenómenos de concurrencia con Caballo
+-- Base: EquinoTEIS
+-- Objetivo: Observar anomalías según niveles de aislamiento
+-- Uso: MySQL (adaptar sintaxis de transacción)
+-- --------------------------------------------------------------------------------------------
+
+-- --------------------------------------------------------------------------------------------
+-- 0. Conexión y configuración inicial
+-- --------------------------------------------------------------------------------------------
+USE EquinoTEIS/abc;
+ALTER SESSION SET NLS_DATE_FORMAT = 'YYYY-MM-DD';
+
+-- Niveles de aislamiento recomendados
+-- MySQL: 	SET TRANSACTION ISOLATION LEVEL REPEATABLE READ;
+
+-- --------------------------------------------------------------------------------------------
+-- 1. Pasos a seguir
+-- --------------------------------------------------------------------------------------------
+-- 1. Abrir dos sesiones simultáneas: T1 y T2
+
+--    * En MySQL  -> emplea sesiones MySQL 8.0 Command Line Client
+-- --
+-- 2. Inicia en el nivel de aislamiento que desees en ambas sesiones T1 y T2, esperando el Query Ok.
+-- --
+-- 3. Ejecuta ahora los comandos asociados (u otros similares) a cada fenómeno paso a paso. Ten cuidado al ejecutarlos para segurar que sea en la sesión indicada.
+-- --
+-- 4. Realiza las capturas de pantalla que consideres adecuadas.
+-- --
+-- 5. En resultado indica si es el esperado al Fenómeno asociado, y si no lo es indica a qué se debe y cómo se podría evitar.
+-- --
+-- 6. Si quieres, puedes comparar resultados en Oracle vs MySQL.
+
+-- --------------------------------------------------------------------------------------------
+-- 2. TABLA DE REFERENCIA DE FENÓMENOS (con ejemplos de T1/T2)
+-- --------------------------------------------------------------------------------------------
+-- | Fenómeno                      | SGBD           | Nivel de aislamiento         | Ejemplo Caballo                                      | Observación                                   |
+-- |--------------------------------|----------------|-----------------------------|------------------------------------------------------|-----------------------------------------------|
+-- | Dirty Read                     | MySQL           | READ UNCOMMITTED            | T1 actualiza estado_salud id=1; T2 lee antes de commit | Oracle no permite dirty read                 |
+-- | Dirty Write                    | MySQL           | READ UNCOMMITTED            | T1 actualiza estado_salud id=4; T2 actualiza mismo campo | Oracle no permite dirty write               |
+-- | Non-repeatable Read            | Oracle/MySQL    | READ COMMITTED              | T1 lee peso id=2; T2 actualiza; T1 vuelve a leer   | Lectura no repetible                         |
+-- | Lost Update                    | Oracle/MySQL    | READ COMMITTED              | T1 lee y actualiza peso id=3; T2 lee y actualiza   | Último commit sobrescribe primer update      |
+-- | Phantom Read                   | Oracle/MySQL    | REPEATABLE READ             | T1 consulta altura≥1.70; T2 inserta id=21; T1 vuelve a consultar | Aparece fila nueva                            |
+-- | Write Skew / Serialization Anomaly | Oracle/MySQL | REPEATABLE READ / SERIALIZABLE | T1 y T2 actualizan caballos a 'Bueno' simultáneamente | Ningún caballo queda con 'Excelente'       |
+
+-- --------------------------------------------------------------------------------------------
+-- 3. FENÓMENOS PASO A PASO
+-- --------------------------------------------------------------------------------------------
+-- En cada fenómeno hay un -- Resultado: en el que deberás indicar la anomalía que has observado
+
+-- --------------------------------------
+-- FENÓMENO 1: Dirty Read
+-- --------------------------------------
+-- Transacción 1 (T1)
+UPDATE Caballo SET estado_salud='En Observación' WHERE id_caballo=1;
+
+-- Transacción 2 (T2)
+SELECT estado_salud FROM Caballo WHERE id_caballo=1;
+
+-- Transacción 1 (T1)
+COMMIT;
+
+-- Resultado: 
+
+-- --------------------------------------
+-- FENÓMENO 2: Dirty Write
+-- --------------------------------------
+-- Transacción 1 (T1)
+UPDATE Caballo SET estado_salud='Cuidado' WHERE id_caballo=4;
+
+-- Transacción 2 (T2)
+UPDATE Caballo SET estado_salud='Excelente' WHERE id_caballo=4;
+COMMIT;
+
+-- Transacción 1 (T1)
+COMMIT;
+
+-- Resultado:
+
+-- --------------------------------------
+-- FENÓMENO 3: Non-repeatable Read
+-- --------------------------------------
+-- Transacción 1 (T1)
+SELECT peso FROM Caballo WHERE id_caballo=2;
+
+-- Transacción 2 (T2)
+UPDATE Caballo SET peso=485 WHERE id_caballo=2;
+COMMIT;
+
+-- Transacción 1 (T1)
+SELECT peso FROM Caballo WHERE id_caballo=2;
+COMMIT;
+
+-- Resultado:
+
+-- --------------------------------------
+-- FENÓMENO 4: Lost Update
+-- --------------------------------------
+-- Transacción 1 (T1)
+SELECT peso FROM Caballo WHERE id_caballo=3;
+
+-- Transacción 2 (T2)
+SELECT peso FROM Caballo WHERE id_caballo=3;
+
+-- Transacción 1 (T1)
+UPDATE Caballo SET peso=610 WHERE id_caballo=3;
+
+-- Transacción 2 (T2)
+UPDATE Caballo SET peso=620 WHERE id_caballo=3;
+COMMIT;
+
+-- Resultado: 
+
+-- --------------------------------------
+-- FENÓMENO 5: Phantom Read
+-- --------------------------------------
+-- Transacción 1 (T1)
+SELECT * FROM Caballo WHERE altura >= 1.70;
+
+-- Transacción 2 (T2)
+INSERT INTO Caballo VALUES (21,'Fulgor',DATE '2019-04-01','Macho','Alazán',520,1.71,'Bueno',1,2);
+COMMIT;
+
+-- Transacción 1 (T1)
+SELECT * FROM Caballo WHERE altura >= 1.70;
+
+-- Resultado: 
+
+-- --------------------------------------
+-- FENÓMENO 6: Write Skew / Serialization Anomaly
+-- --------------------------------------
+-- Restricción lógica: al menos un caballo debe estar con estado_salud='Excelente'
+
+-- Transacción 1 (T1)
+SELECT COUNT(*) FROM Caballo WHERE estado_salud='Excelente';
+UPDATE Caballo SET estado_salud='Bueno' WHERE id_caballo=1;
+
+-- Transacción 2 (T2)
+SELECT COUNT(*) FROM Caballo WHERE estado_salud='Excelente';
+UPDATE Caballo SET estado_salud='Bueno' WHERE id_caballo=3;
+
+-- Transacción 1 y 2
+COMMIT;
+
+-- Resultado:
+
+-- --------------------------------------------------------------------------------------------
+-- --------------------------------------------------------------------------------------------

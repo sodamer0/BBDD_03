@@ -7,9 +7,9 @@
 			"name": "localhost",
 			"save-password": true,
 			"configuration": {
-				"host": "192.168.1.142",
+				"host": "192.168.1.200",
 				"port": "3306",
-				"url": "jdbc:mysql://192.168.1.142:3306/",
+				"url": "jdbc:mysql://192.168.1.200:3306/",
 				"configurationType": "MANUAL",
 				"home": "mysql_client",
 				"type": "dev",
@@ -24,7 +24,24 @@
 				"provider-properties": {
 					"@dbeaver-show-all-dbs@": "true"
 				},
-				"auth-model": "native"
+				"auth-model": "native",
+				"handlers": {
+					"ssh_tunnel": {
+						"type": "TUNNEL",
+						"enabled": true,
+						"save-password": true,
+						"properties": {
+							"jumpServer.count": 0,
+							"host": "192.168.1.200",
+							"port": 22,
+							"authType": "PASSWORD",
+							"implementation": "sshj",
+							"shareTunnels": true,
+							"localHost": "",
+							"remoteHost": ""
+						}
+					}
+				}
 			},
 			"custom-properties": {
 				"transaction.auto.close.ttl": "14400"
