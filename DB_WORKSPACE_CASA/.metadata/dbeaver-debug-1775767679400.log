@@ -1,0 +1,132 @@
+2026-04-01 00:14:06.117 - DBeaver 26.0.0.202603011816 is starting
+2026-04-01 00:14:06.119 - OS: Windows 11 10.0 (amd64)
+2026-04-01 00:14:06.119 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
+2026-04-01 00:14:06.119 - Install path: 'C:\Users\sanpc\AppData\Local\DBeaver'
+2026-04-01 00:14:06.119 - Instance path: 'file:/D:/SanVic/Documents/2025(02)/DAW_DUAL(2025-2026)/BASES DE DATOS(2025-2026)/BBDD_03/DB_WORKSPACE_CASA/'
+2026-04-01 00:14:06.121 - Memory available 64Mb/1024Mb
+2026-04-01 00:14:06.124 - Initialize desktop platform...
+2026-04-01 00:14:06.228 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.11.400.v20251107-0507]
+> Start Core Resource Management [org.eclipse.core.resources 3.23.100.v20251106-1705]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.174.202603011816]
+> Start Team Support Core [org.eclipse.team.core 3.10.900.v20251104-0924]
+> Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.4.700.v20250622-1644]
+> Start Internet Connection Management UI [org.eclipse.ui.net 1.5.500.v20250611-0855]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.800.v20250613-1119]
+2026-04-01 00:14:06.594 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
+2026-04-01 00:14:06.604 - Initialize base platform...
+2026-04-01 00:14:06.611 - Platform initialized (487ms)
+2026-04-01 00:14:06.622 - Create display
+2026-04-01 00:14:07.186 - Starting instance server at http://localhost:53740
+2026-04-01 00:14:07.215 - Run workbench
+> Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.17.1000.v20251023-0611]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.300.v20251112-1253]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.600.v20251023-1358]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.900.v20251023-1511]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.800.v20250916-0937]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.700.v20250916-0927]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.39.0.v20250910-1205]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.600.v20251023-0615]
+> Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.5.900.v20251007-0832]
+> Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.16.1000.v20251114-0005]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start DBeaver AI Model [org.jkiss.dbeaver.model.ai 2.0.17.202603011816]
+> Start DBeaver AI UI [org.jkiss.dbeaver.ui.ai 1.0.76.202603011816]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.700.v20251023-1511]
+> Start JFace Text [org.eclipse.jface.text 3.29.0.v20251112-0859]
+> Start Default Text Editor [org.eclipse.ui.editors 3.20.200.v20251125-0939]
+> Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.19.400.v20251105-0815]
+2026-04-01 00:14:14.812 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.164.202603011816]
+2026-04-01 00:14:15.028 - Total database drivers: 128 (128)
+> Start Help System Core [org.eclipse.help 3.10.600.v20250613-0437]
+2026-04-01 00:14:15.102 - Create actions
+2026-04-01 00:14:15.754 - Initialize workbench window
+2026-04-01 00:14:15.764 - Finish initialization
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.174.202603011816]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.174.202603011816]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.150.202603011816]
+> Start Core Compare Support [org.eclipse.compare.core 3.8.800.v20250718-1505]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.211.202603011816]
+2026-04-01 00:14:18.240 - Open [https://dbeaver.io/product/version.xml]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.171.202603011816]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.21.0.202512020742]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.24.0.202511201732]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.ui.editors.erd 3.1.15.202603011816]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.model.erd 1.1.15.202603011816]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.67.202603011816]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.259.202603011816]
+> Start Console [org.eclipse.ui.console 3.15.0.v20251113-1013]
+> Start Debug Core [org.eclipse.debug.core 3.23.200.v20251107-0507]
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.152.202603011816]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.166.202603011816]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.152.202603011816]
+2026-04-01 00:14:19.642 - Connect with 'localhost' (mysql8-19cfdcbc635-78d2407e596b5f47)
+2026-04-01 00:14:19.677 - Execution context opened (localhost; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.198.202603011816]
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.69.202603011816]
+2026-04-01 00:14:39.842 - Execution context closed (localhost, 0)
+2026-04-01 00:14:57.985 - Connect with 'localhost' (mysql8-19cfdcbc635-78d2407e596b5f47)
+2026-04-01 00:14:57.986 - Execution context opened (localhost; Main; 1)
+2026-04-01 00:15:17.987 - Execution context closed (localhost, 1)
+> Start Data Transfer UI [org.jkiss.dbeaver.data.transfer.ui 1.0.158.202603011816]
+2026-04-01 00:18:18.967 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2026-04-01 00:18:19.005 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+> Start DBeaver SSH tunnels UI [org.jkiss.dbeaver.net.ssh.ui 1.0.195.202603011816]
+> Start DBeaver SSH Tunnels [org.jkiss.dbeaver.net.ssh 1.0.195.202603011816]
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.158.202603011816]
+2026-04-01 00:25:44.358 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2026-04-01 00:25:44.377 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2026-04-01 00:25:45.319 - Connect with 'localhost' (mysql8-19d4600b750-6197a7e32010b2b0)
+> Start DBeaver SSH implementation (SSHJ) [org.jkiss.dbeaver.net.ssh.sshj 1.0.195.202603011816]
+> Start org.jkiss.bundle.sshj [org.jkiss.bundle.sshj 0.34.2]
+2026-04-01 00:25:45.349 - SSHSessionController: Creating new session to s*****i@1*****0:22
+2026-04-01 00:25:45.349 - SSHSessionController: Connecting session to s*****i@1*****0:22
+> Start JSch Core [org.eclipse.jsch.core 1.5.700.v20250723-0831]
+2026-04-01 00:25:45.559 - net.schmizz.sshj.transport.TransportImpl: Client identity string: SSH-2.0-SSHJ_0.40.0
+2026-04-01 00:25:45.565 - net.schmizz.sshj.transport.TransportImpl: Server identity string: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14
+2026-04-01 00:25:45.647 - SSHSessionController: Set up port forwarding *****:16419 <- 1*****0:3306
+2026-04-01 00:25:45.650 - net.schmizz.sshj.connection.channel.direct.LocalPortForwarder: Listening on localhost/127.0.0.1:16419
+2026-04-01 00:25:45.651 - Execution context opened (localhost; Main; 2)
+2026-04-01 00:25:46.138 - Connected (mysql8-19d4600b750-6197a7e32010b2b0, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2026-04-01 00:25:46.152 - Execution context closed (localhost, 2)
+2026-04-01 00:25:46.152 - SSHSessionController: Remove port forwarding *****:16419 <- 1*****0:3306
+2026-04-01 00:25:46.152 - net.schmizz.sshj.connection.channel.direct.LocalPortForwarder: Closing listener on localhost/127.0.0.1:16419
+2026-04-01 00:25:46.153 - SSHSessionController: Releasing session for localhost [MySQL]
+2026-04-01 00:25:46.153 - SSHSessionController: Disconnecting session to s*****i@1*****0:22
+2026-04-01 00:25:46.153 - net.schmizz.sshj.transport.TransportImpl: Disconnected - BY_APPLICATION
+2026-04-01 00:25:46.154 - Disconnected (mysql8-19d4600b750-6197a7e32010b2b0)
+2026-04-01 00:26:05.404 - Connect with 'localhost' (mysql8-19cfdcbc635-78d2407e596b5f47)
+2026-04-01 00:26:05.405 - SSHSessionController: Creating new session to s*****i@1*****0:22
+2026-04-01 00:26:05.405 - SSHSessionController: Connecting session to s*****i@1*****0:22
+2026-04-01 00:26:05.410 - net.schmizz.sshj.transport.TransportImpl: Client identity string: SSH-2.0-SSHJ_0.40.0
+2026-04-01 00:26:05.417 - net.schmizz.sshj.transport.TransportImpl: Server identity string: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14
+2026-04-01 00:26:05.489 - SSHSessionController: Set up port forwarding *****:40571 <- 1*****0:3306
+2026-04-01 00:26:05.490 - net.schmizz.sshj.connection.channel.direct.LocalPortForwarder: Listening on localhost/127.0.0.1:40571
+2026-04-01 00:26:05.491 - Execution context opened (localhost; Main; 3)
+2026-04-01 00:26:05.615 - Execution context opened (localhost; Metadata; 4)
+2026-04-01 00:26:05.688 - Connected (mysql8-19cfdcbc635-78d2407e596b5f47, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2026-04-01 00:26:18.131 - Execution context opened (localhost; SQLEditor <Script-7.sql>; 5)
+2026-04-01 00:26:54.260 - Execution context closed (localhost, 5)
+2026-04-01 00:30:52.896 - Execution context opened (localhost; SQLEditor <Script-8.sql>; 6)
+2026-04-01 00:31:09.862 - Execution context opened (localhost; SQLEditor <Script-9.sql>; 7)
+2026-04-01 00:32:06.719 - Execution context opened (localhost; SQLEditor <Script-10.sql>; 8)
+2026-04-01 00:35:13.245 - Execution context closed (localhost, 6)
+2026-04-01 00:35:13.280 - Execution context closed (localhost, 7)
+2026-04-01 00:35:13.329 - Execution context closed (localhost, 8)
+2026-04-01 00:35:13.466 - Dispose navigator model
+2026-04-01 00:35:13.490 - DBeaver is stopping
+2026-04-01 00:35:13.492 - Stop instance server
+2026-04-01 00:35:14.497 - Instance server has been stopped
+2026-04-01 00:35:14.498 - DBeaver shutdown completed
+2026-04-01 00:35:14.530 - Shutdown desktop platform...
+2026-04-01 00:35:14.544 - Execution context closed (localhost, 3)
+2026-04-01 00:35:14.554 - Execution context closed (localhost, 4)
+2026-04-01 00:35:14.554 - SSHSessionController: Remove port forwarding *****:40571 <- 1*****0:3306
+2026-04-01 00:35:14.554 - net.schmizz.sshj.connection.channel.direct.LocalPortForwarder: Closing listener on localhost/127.0.0.1:40571
+2026-04-01 00:35:14.554 - SSHSessionController: Releasing session for localhost [MySQL]
+2026-04-01 00:35:14.554 - SSHSessionController: Disconnecting session to s*****i@1*****0:22
+2026-04-01 00:35:14.554 - net.schmizz.sshj.transport.TransportImpl: Disconnected - BY_APPLICATION
+2026-04-01 00:35:14.555 - net.schmizz.concurrent.Promise: <<copyDone>> woke to: net.schmizz.sshj.transport.TransportException: [BY_APPLICATION] Disconnected
+2026-04-01 00:35:14.555 - Disconnected (mysql8-19cfdcbc635-78d2407e596b5f47)
+2026-04-01 00:35:14.629 - Platform shutdown completed (99ms)

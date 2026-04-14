@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <items>
 	<item id="Suggestion/NodeList/MySQLTableColumn">
-		<column name="Column Name" visible="true" order="0" width="126"/>
-		<column name="#" visible="true" order="1" width="53"/>
-		<column name="Data Type" visible="true" order="2" width="105"/>
+		<column name="Column Name" visible="true" order="0" width="132"/>
+		<column name="#" visible="true" order="1" width="51"/>
+		<column name="Data Type" visible="true" order="2" width="103"/>
 		<column name="Not Null" visible="false" order="3" width="100"/>
 		<column name="Auto Increment" visible="false" order="4" width="100"/>
 		<column name="Key" visible="false" order="5" width="100"/>
 		<column name="Default" visible="false" order="6" width="100"/>
 		<column name="Extra" visible="false" order="7" width="100"/>
 		<column name="Expression" visible="false" order="8" width="100"/>
-		<column name="Comment" visible="true" order="3" width="94"/>
+		<column name="Comment" visible="true" order="3" width="92"/>
 	</item>
 	<item id="scriptSelectorViewer">
-		<column name="Script" visible="true" order="0" width="257"/>
-		<column name="Time" visible="true" order="1" width="146"/>
-		<column name="Info" visible="true" order="2" width="49"/>
-		<column name="Folder" visible="true" order="3" width="61"/>
+		<column name="Script" visible="true" order="0" width="252"/>
+		<column name="Time" visible="true" order="1" width="141"/>
+		<column name="Info" visible="true" order="2" width="44"/>
+		<column name="Folder" visible="true" order="3" width="56"/>
 	</item>
 </items>

@@ -56,4 +56,4 @@ resultset.presentation.active=plaintext
 sample.database.canceled=true
 script.title.pattern=<${connectionName}>[${database}]_${fileName}
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1774220029281
+ui.auto.update.check.time=1775809130709
