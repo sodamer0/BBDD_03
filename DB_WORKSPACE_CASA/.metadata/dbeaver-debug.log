@@ -1,11 +1,11 @@
-2026-04-10 10:18:46.331 - DBeaver 26.0.0.202603011816 is starting
-2026-04-10 10:18:46.332 - OS: Windows 11 10.0 (amd64)
-2026-04-10 10:18:46.332 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
-2026-04-10 10:18:46.332 - Install path: 'C:\Users\sanpc\AppData\Local\DBeaver'
-2026-04-10 10:18:46.332 - Instance path: 'file:/D:/SanVic/Documents/2025(02)/DAW_DUAL(2025-2026)/BASES DE DATOS(2025-2026)/BBDD_03/DB_WORKSPACE_CASA/'
-2026-04-10 10:18:46.335 - Memory available 64Mb/1024Mb
-2026-04-10 10:18:46.338 - Initialize desktop platform...
-2026-04-10 10:18:46.437 - BounceCastle bundle found. Use JCE provider BC
+2026-05-05 16:54:44.312 - DBeaver 26.0.0.202603011816 is starting
+2026-05-05 16:54:44.314 - OS: Windows 11 10.0 (amd64)
+2026-05-05 16:54:44.314 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
+2026-05-05 16:54:44.314 - Install path: 'C:\Users\sanpc\AppData\Local\DBeaver'
+2026-05-05 16:54:44.314 - Instance path: 'file:/D:/SanVic/Documents/2025(02)/DAW_DUAL(2025-2026)/BASES DE DATOS(2025-2026)/BBDD_03/DB_WORKSPACE_CASA/'
+2026-05-05 16:54:44.316 - Memory available 64Mb/1024Mb
+2026-05-05 16:54:44.320 - Initialize desktop platform...
+2026-05-05 16:54:44.444 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.11.400.v20251107-0507]
 > Start Core Resource Management [org.eclipse.core.resources 3.23.100.v20251106-1705]
 > Start Team Support Core [org.eclipse.team.core 3.10.900.v20251104-0924]
@@ -13,12 +13,12 @@
 > Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.4.700.v20250622-1644]
 > Start Internet Connection Management UI [org.eclipse.ui.net 1.5.500.v20250611-0855]
 > Start Internet Connection Management [org.eclipse.core.net 1.5.800.v20250613-1119]
-2026-04-10 10:18:46.613 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
-2026-04-10 10:18:46.622 - Initialize base platform...
-2026-04-10 10:18:46.632 - Platform initialized (294ms)
-2026-04-10 10:18:46.640 - Create display
-2026-04-10 10:18:46.849 - Starting instance server at http://localhost:52880
-2026-04-10 10:18:46.856 - Run workbench
+2026-05-05 16:54:44.644 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
+2026-05-05 16:54:44.653 - Initialize base platform...
+2026-05-05 16:54:44.663 - Platform initialized (343ms)
+2026-05-05 16:54:44.671 - Create display
+2026-05-05 16:54:44.920 - Starting instance server at http://localhost:64786
+2026-05-05 16:54:44.926 - Run workbench
 > Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.17.1000.v20251023-0611]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.300.v20251112-1253]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.600.v20251023-1358]
@@ -36,24 +36,52 @@
 > Start JFace Text [org.eclipse.jface.text 3.29.0.v20251112-0859]
 > Start Default Text Editor [org.eclipse.ui.editors 3.20.200.v20251125-0939]
 > Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.19.400.v20251105-0815]
-2026-04-10 10:18:48.234 - Configure workbench window
+2026-05-05 16:54:46.429 - Configure workbench window
 > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.164.202603011816]
-2026-04-10 10:18:48.405 - Total database drivers: 128 (128)
+2026-05-05 16:54:46.600 - Total database drivers: 128 (128)
 > Start Help System Core [org.eclipse.help 3.10.600.v20250613-0437]
-2026-04-10 10:18:48.470 - Create actions
-2026-04-10 10:18:48.925 - Initialize workbench window
-2026-04-10 10:18:48.936 - Finish initialization
+2026-05-05 16:54:46.678 - Create actions
+2026-05-05 16:54:47.197 - Initialize workbench window
+2026-05-05 16:54:47.210 - Finish initialization
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.174.202603011816]
 > Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.174.202603011816]
 > Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.150.202603011816]
 > Start Core Compare Support [org.eclipse.compare.core 3.8.800.v20250718-1505]
 > Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.211.202603011816]
-2026-04-10 10:18:50.714 - Open [https://dbeaver.io/product/version.xml]
+2026-05-05 16:54:49.183 - Open [https://dbeaver.io/product/version.xml]
 > Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.171.202603011816]
 > Start GEF Classic Draw2d [org.eclipse.draw2d 3.21.0.202512020742]
 > Start GEF Classic GEF (MVC) [org.eclipse.gef 3.24.0.202511201732]
 > Start DBeaver ERD UI [org.jkiss.dbeaver.ui.editors.erd 3.1.15.202603011816]
 > Start DBeaver ERD Model [org.jkiss.dbeaver.model.erd 1.1.15.202603011816]
+2026-05-05 16:54:49.419 - Exception during a connection to https://dbeaver.io/product/version.xml
+java.net.SocketException: Permission denied: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1139)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:141)
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:156)
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:88)
+	at org.jkiss.dbeaver.runtime.WebUtils.openURLConnection(WebUtils.java:77)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:59)
+	at org.jkiss.dbeaver.runtime.WebUtils.openConnection(WebUtils.java:54)
+	at org.jkiss.dbeaver.registry.updater.VersionDescriptor.<init>(VersionDescriptor.java:56)
+	at org.jkiss.dbeaver.ui.app.standalone.update.DBeaverVersionChecker.run(DBeaverVersionChecker.java:127)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 > Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.67.202603011816]
 > Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.259.202603011816]
 > Start Console [org.eclipse.ui.console 3.15.0.v20251113-1013]
@@ -61,47 +89,520 @@
 > Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.152.202603011816]
 > Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.166.202603011816]
 > Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.152.202603011816]
-2026-04-10 10:18:51.481 - Connect with 'localhost' (mysql8-19cfdcbc635-78d2407e596b5f47)
+2026-05-05 16:54:50.049 - Connect with 'localhost' (mysql8-19cfdcbc635-78d2407e596b5f47)
 > Start DBeaver SSH Tunnels [org.jkiss.dbeaver.net.ssh 1.0.195.202603011816]
 > Start DBeaver SSH implementation (SSHJ) [org.jkiss.dbeaver.net.ssh.sshj 1.0.195.202603011816]
 > Start org.jkiss.bundle.sshj [org.jkiss.bundle.sshj 0.34.2]
-2026-04-10 10:18:51.509 - SSHSessionController: Creating new session to s*****i@1*****0:22
-2026-04-10 10:18:51.509 - SSHSessionController: Connecting session to s*****i@1*****0:22
+2026-05-05 16:54:50.081 - SSHSessionController: Creating new session to s*****i@1*****0:22
+2026-05-05 16:54:50.085 - SSHSessionController: Connecting session to s*****i@1*****0:22
 > Start JSch Core [org.eclipse.jsch.core 1.5.700.v20250723-0831]
 > Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.69.202603011816]
-2026-04-10 10:18:51.948 - net.schmizz.sshj.transport.TransportImpl: Client identity string: SSH-2.0-SSHJ_0.40.0
-2026-04-10 10:18:51.958 - net.schmizz.sshj.transport.TransportImpl: Server identity string: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14
-2026-04-10 10:18:52.044 - SSHSessionController: Set up port forwarding *****:36038 <- 1*****0:3306
-2026-04-10 10:18:52.047 - net.schmizz.sshj.connection.channel.direct.LocalPortForwarder: Listening on localhost/127.0.0.1:36038
-2026-04-10 10:18:52.071 - Execution context opened (localhost; Main; 0)
+2026-05-05 16:54:51.205 - Search condition or value expression expected while facing with anyValue
+2026-05-05 16:54:51.218 - Search condition or value expression expected while facing with anyValue
+> Start Equinox Provisioning Engine [org.eclipse.equinox.p2.engine 2.11.0.v20251111-1028]
+> Start Equinox Provisioning Core [org.eclipse.equinox.p2.core 2.13.200.v20251111-1620]
+> Start Equinox Provisioning Metadata [org.eclipse.equinox.p2.metadata 2.9.600.v20251108-0408]
+> Start Equinox Provisioning Platform Update Support [org.eclipse.equinox.p2.ui.sdk 1.3.500.v20250521-0421]
+> Start Equinox Provisioning Operations API [org.eclipse.equinox.p2.operations 2.7.700.v20250720-1530]
+> Start Equinox Provisioning UI Support [org.eclipse.equinox.p2.ui 2.8.1000.v20251111-1030]
+> Start Equinox Provisioning Metadata Repository [org.eclipse.equinox.p2.metadata.repository 1.5.700.v20250720-0955]
+> Start Equinox Provisioning Repository [org.eclipse.equinox.p2.repository 2.9.600.v20251118-0500]
+> Start Equinox Provisioning Director [org.eclipse.equinox.p2.director 2.6.800.v20250714-1236]
+> Start Equinox Provisioning ECF based Transport [org.eclipse.equinox.p2.transport.ecf 1.4.600.v20251124-1504]
+> Start ECF Filetransfer API [org.eclipse.ecf.filetransfer 5.1.103.v20230705-0614]
+> Start ECF Core API [org.eclipse.ecf 3.13.0.v20250304-2338]
+> Start ECF Java HttpClient Filetransfer Provider [org.eclipse.ecf.provider.filetransfer.httpclientjava 2.1.1.v20250818-1641]
+> Start ECF Filetransfer Provider [org.eclipse.ecf.provider.filetransfer 3.3.100.v20250115-0406]
+> Start Equinox Concurrent API [org.eclipse.equinox.concurrent 1.3.400.v20250715-0436]
+> Start ECF Identity Core API [org.eclipse.ecf.identity 3.10.0.v20240812-1535]
+> Start Equinox Provisioning Extension Location Repository Support [org.eclipse.equinox.p2.extensionlocation 1.5.700.v20250720-1526]
+> Start DBeaver Tasks View [org.jkiss.dbeaver.tasks.ui.view 1.0.123.202603011816]
+2026-05-05 17:13:37.260 - Connect with 'localhost' (mysql8-19cfdcbc635-78d2407e596b5f47)
+2026-05-05 17:13:37.260 - SSHSessionController: Creating new session to s*****i@1*****0:22
+2026-05-05 17:13:37.261 - SSHSessionController: Connecting session to s*****i@1*****0:22
+2026-05-05 17:13:37.904 - Search condition or value expression expected while facing with anyValue
+2026-05-05 17:13:37.905 - Search condition or value expression expected while facing with anyValue
+2026-05-05 17:13:45.008 - Connect with 'localhost' (mysql8-19cfdcbc635-78d2407e596b5f47)
+2026-05-05 17:13:45.008 - SSHSessionController: Creating new session to s*****i@1*****0:22
+2026-05-05 17:13:45.010 - SSHSessionController: Connecting session to s*****i@1*****0:22
+2026-05-05 17:13:45.018 - net.schmizz.sshj.transport.TransportImpl: Client identity string: SSH-2.0-SSHJ_0.40.0
+2026-05-05 17:13:45.027 - net.schmizz.sshj.transport.TransportImpl: Server identity string: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14
+2026-05-05 17:13:45.135 - SSHSessionController: Set up port forwarding *****:58241 <- 1*****0:3306
+2026-05-05 17:13:45.137 - net.schmizz.sshj.connection.channel.direct.LocalPortForwarder: Listening on localhost/127.0.0.1:58241
+2026-05-05 17:13:45.156 - Execution context opened (localhost; Main; 0)
 > Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.198.202603011816]
-2026-04-10 10:18:52.628 - Execution context opened (localhost; Metadata; 1)
-2026-04-10 10:18:52.741 - Connected (mysql8-19cfdcbc635-78d2407e596b5f47, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
-2026-04-10 10:18:52.779 - Execution context opened (localhost; SQLEditor <Script-10.sql>; 2)
-2026-04-10 11:03:09.768 - Execution context opened (localhost; SQLEditor <Script-9.sql>; 3)
-2026-04-10 11:03:11.181 - Execution context opened (localhost; SQLEditor <Script-8.sql>; 4)
+2026-05-05 17:13:45.459 - Execution context opened (localhost; Metadata; 1)
+2026-05-05 17:13:45.528 - Connected (mysql8-19cfdcbc635-78d2407e596b5f47, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2026-05-05 17:13:45.564 - Execution context opened (localhost; SQLEditor <TAREA06_SOL.sql>; 2)
+2026-05-05 17:13:46.328 - Search condition or value expression expected while facing with anyValue
+2026-05-05 17:13:46.337 - Search condition or value expression expected while facing with anyValue
+> Start Data Transfer UI [org.jkiss.dbeaver.data.transfer.ui 1.0.158.202603011816]
+2026-05-05 17:16:51.836 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2026-05-05 17:16:51.860 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
 > Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.158.202603011816]
-2026-04-10 14:01:04.305 - net.schmizz.sshj.transport.TransportImpl: Dying because - Broken transport; encountered EOF
-2026-04-10 14:01:04.306 - net.schmizz.sshj.transport.TransportImpl: Disconnected - UNKNOWN
-2026-04-10 14:01:14.590 - net.schmizz.concurrent.Promise: <<copyDone>> woke to: net.schmizz.sshj.transport.TransportException: Broken transport; encountered EOF
-2026-04-10 14:01:14.596 - Execution context closed (localhost, 4)
-2026-04-10 14:01:14.627 - net.schmizz.concurrent.Promise: <<copyDone>> woke to: net.schmizz.sshj.transport.TransportException: Broken transport; encountered EOF
-2026-04-10 14:01:14.638 - Execution context closed (localhost, 3)
-2026-04-10 14:01:14.698 - net.schmizz.concurrent.Promise: <<copyDone>> woke to: net.schmizz.sshj.transport.TransportException: Broken transport; encountered EOF
-2026-04-10 14:01:14.709 - Execution context closed (localhost, 2)
-2026-04-10 14:01:14.919 - Dispose navigator model
-2026-04-10 14:01:14.959 - DBeaver is stopping
-2026-04-10 14:01:14.962 - Stop instance server
-2026-04-10 14:01:15.964 - Instance server has been stopped
-2026-04-10 14:01:15.964 - DBeaver shutdown completed
-2026-04-10 14:01:16.005 - Shutdown desktop platform...
-2026-04-10 14:01:16.007 - net.schmizz.concurrent.Promise: <<copyDone>> woke to: net.schmizz.sshj.transport.TransportException: Broken transport; encountered EOF
-2026-04-10 14:01:16.018 - Execution context closed (localhost, 0)
-2026-04-10 14:01:16.018 - net.schmizz.concurrent.Promise: <<copyDone>> woke to: net.schmizz.sshj.transport.TransportException: Broken transport; encountered EOF
-2026-04-10 14:01:16.029 - Execution context closed (localhost, 1)
-2026-04-10 14:01:16.029 - SSHSessionController: Remove port forwarding *****:36038 <- 1*****0:3306
-2026-04-10 14:01:16.029 - net.schmizz.sshj.connection.channel.direct.LocalPortForwarder: Closing listener on localhost/127.0.0.1:36038
-2026-04-10 14:01:16.030 - SSHSessionController: Releasing session for localhost [MySQL]
-2026-04-10 14:01:16.030 - SSHSessionController: Disconnecting session to s*****i@1*****0:22
-2026-04-10 14:01:16.030 - Disconnected (mysql8-19cfdcbc635-78d2407e596b5f47)
-2026-04-10 14:01:16.100 - Platform shutdown completed (94ms)
+2026-05-05 17:36:42.578 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2026-05-05 17:36:42.598 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2026-05-05 17:53:38.392 - DBeaver Enterprise 26.0.0.202603091637 is starting
+2026-05-05 17:53:38.393 - OS: Windows 11 10.0 (amd64)
+2026-05-05 17:53:38.393 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
+2026-05-05 17:53:38.393 - Install path: 'C:\Users\sanpc\AppData\Local\DBeaverEE'
+2026-05-05 17:53:38.393 - Instance path: 'file:/D:/SanVic/Documents/2025(02)/DAW_DUAL(2025-2026)/BASES DE DATOS(2025-2026)/BBDD_03/DB_WORKSPACE_CASA/'
+2026-05-05 17:53:38.395 - Memory available 128Mb/2048Mb
+2026-05-05 17:53:38.398 - Initialize desktop platform...
+2026-05-05 17:53:38.489 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.11.400.v20251107-0507]
+> Start JGit SSH support based on Apache MINA sshd [org.eclipse.jgit.ssh.apache 7.5.0.202512021534-r]
+> Start Core Resource Management [org.eclipse.core.resources 3.23.100.v20251106-1705]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.174.202603091637]
+> Start Team Support Core [org.eclipse.team.core 3.10.900.v20251104-0924]
+> Start Internet Connection Management UI [org.eclipse.ui.net 1.5.500.v20250611-0855]
+> Start JGit Apache httpclient based HTTP support [org.eclipse.jgit.http.apache 7.5.0.202512021534-r]
+> Start JSch Core [org.eclipse.jsch.core 1.5.700.v20250723-0831]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.800.v20250613-1119]
+2026-05-05 17:53:38.793 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
+2026-05-05 17:53:38.811 - Initialize base platform...
+> Start DBeaver Tableau Model [com.dbeaver.model.tableau 1.0.66.202603091637]
+> Start DBeaver QMDB Core [com.dbeaver.ee.qmdb.core 2.0.202.202603091637]
+2026-05-05 17:53:38.827 - Platform initialized (429ms)
+2026-05-05 17:53:39.107 - Can't start instance server because other instance is already running
+2026-05-05 17:53:39.115 - Run workbench
+> Start Eclipse IDE UI [org.eclipse.ui.ide 3.22.800.v20251112-0859]
+> Start Equinox Security Default UI [org.eclipse.equinox.security.ui 1.4.700.v20251111-0659]
+> Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.17.1000.v20251023-0611]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.300.v20251112-1253]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.600.v20251023-1358]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.900.v20251023-1511]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.800.v20250916-0937]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.700.v20250916-0927]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.39.0.v20250910-1205]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.600.v20251023-0615]
+> Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.5.900.v20251007-0832]
+> Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.16.1000.v20251114-0005]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start DBeaver AI Model [org.jkiss.dbeaver.model.ai 2.0.17.202603091637]
+> Start DBeaver AI UI [org.jkiss.dbeaver.ui.ai 1.0.76.202603091637]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.700.v20251023-1511]
+> Start JFace Text [org.eclipse.jface.text 3.29.0.v20251112-0859]
+> Start DBeaver PRO AI UI [com.dbeaver.ui.ai 1.0.73.202603091637]
+> Start Debug Core [org.eclipse.debug.core 3.23.200.v20251107-0507]
+> Start Debug UI [org.eclipse.debug.ui 3.19.100.v20251114-0802]
+> Start Default Text Editor [org.eclipse.ui.editors 3.20.200.v20251125-0939]
+> Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.19.400.v20251105-0815]
+2026-05-05 17:53:40.579 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.164.202603091637]
+2026-05-05 17:53:40.732 - Total database drivers: 162 (162)
+> Start Help System Core [org.eclipse.help 3.10.600.v20250613-0437]
+2026-05-05 17:53:41.276 - Initialize workbench window
+> Start DBeaver PRO Base UI [com.dbeaver.ui.core 2.0.202.202603091637]
+> Start DBeaver SQL JDBC Tools [org.jkiss.dbeaver.model.sql.jdbc 1.0.38.202603091637]
+2026-05-05 17:53:41.297 - Service 'com.dbeaver.ui.UIServiceRemoteFS' not found
+2026-05-05 17:53:41.297 - Finish initialization
+> Start org.jkiss.bundle.apache.dbcp [org.jkiss.bundle.apache.dbcp 2.12.5]
+2026-05-05 17:53:41.305 - Initialize QMDB...
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.67.202603091637]
+> Start DBeaver Generic Plug-in [org.jkiss.dbeaver.ext.generic 2.3.260.202603091637]
+> Start DBeaver H2 Model [org.jkiss.dbeaver.ext.h2 1.0.229.202603091637]
+> Start org.jkiss.bundle.gis [org.jkiss.bundle.gis 2.0.8]
+2026-05-05 17:53:41.485 - Using database driver 'h2_embedded_v2' instead of 'h2_embedded' from config
+2026-05-05 17:53:41.485 - Using database file 'D:\SanVic\Documents\2025(02)\DAW_DUAL(2025-2026)\BASES DE DATOS(2025-2026)\BBDD_03\DB_WORKSPACE_CASA\.metadata\qmdb\qmdb_v2.mv.db' instead of 'D:\SanVic\Documents\2025(02)\DAW_DUAL(2025-2026)\BASES DE DATOS(2025-2026)\BBDD_03\DB_WORKSPACE_CASA\.metadata\qmdb\qmdb.mv.db' from config
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.174.202603091637]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.174.202603091637]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.150.202603091637]
+2026-05-05 17:53:41.794 - Export file removed 'D:\SanVic\Documents\2025(02)\DAW_DUAL(2025-2026)\BASES DE DATOS(2025-2026)\BBDD_03\DB_WORKSPACE_CASA\.metadata\qmdb\H2v1ExportScript'
+2026-05-05 17:53:41.794 - H2 v1->v2 migration was successful
+2026-05-05 17:53:41.803 - 	Initiate connection pool with management database (H2 Embedded V.2; jdbc:h2:D:\SanVic\Documents\2025(02)\DAW_DUAL(2025-2026)\BASES DE DATOS(2025-2026)\BBDD_03\DB_WORKSPACE_CASA/.metadata/qmdb/qmdb_v2)
+2026-05-05 17:53:42.037 - QMDB connected
+2026-05-05 17:53:42.068 - Create new schema QMDB
+2026-05-05 17:53:42.069 - Reading script file: 'ddl/qm_schema.sql'
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.69.202603091637]
+> Start Core Compare Support [org.eclipse.compare.core 3.8.800.v20250718-1505]
+2026-05-05 17:53:42.320 - 	Initialize license manager for dbeaver-ee
+2026-05-05 17:53:42.436 - Execute migration query: CREATE TABLE QM_INFO (
+    VERSION INTEGER NOT NULL,
+    UPDATE_TIME TIMESTAMP NOT NULL
+)
+2026-05-05 17:53:42.441 - Execute migration query: -- Deployment host information
+CREATE TABLE QM_DBEAVER_HOST (
+    HOST_ID INTEGER AUTO_INCREMENT NOT NULL,
+
+    MAC_ADDRESS CHAR(12) NOT NULL,
+    HOST_NAME VARCHAR(1024) NOT NULL,
+    IP_ADDRESS VARCHAR(48) NOT NULL,
+
+    UPDATE_TIME TIMESTAMP NOT NULL,
+
+    PRIMARY KEY (HOST_ID),
+    UNIQUE (MAC_ADDRESS)
+)
+2026-05-05 17:53:42.452 - Execute migration query: INSERT INTO QM_DBEAVER_HOST(MAC_ADDRESS, HOST_NAME, IP_ADDRESS, UPDATE_TIME)
+    VALUES ('000000000000', 'localhost', '127.0.0.1', CURRENT_TIMESTAMP)
+2026-05-05 17:53:42.455 - Execute migration query: -- User information
+CREATE TABLE QM_USER (
+    USER_ID BIGINT AUTO_INCREMENT NOT NULL,
+
+    DOMAIN_NAME VARCHAR(128) NOT NULL,
+    USER_NAME VARCHAR(255) NOT NULL,
+
+    UPDATE_TIME TIMESTAMP NOT NULL,
+
+    PRIMARY KEY (USER_ID),
+    UNIQUE (DOMAIN_NAME,USER_NAME)
+)
+2026-05-05 17:53:42.457 - Execute migration query: -- Product deployment information
+CREATE TABLE QM_DBEAVER_DEPLOYMENT (
+    DEPLOY_ID INTEGER AUTO_INCREMENT NOT NULL,
+
+    HOST_ID INTEGER DEFAULT 0 NOT NULL,     -- Owner host
+    INSTALL_PATH VARCHAR(512) NOT NULL,    -- Local path on host machine
+    PORT_NUMBER INTEGER DEFAULT 0,          -- Port number. 0 for desktop deployment
+
+    HOST_NAME VARCHAR(128), -- Backward compatibility
+
+    UPDATE_TIME TIMESTAMP NOT NULL,
+
+    PRIMARY KEY (DEPLOY_ID),
+    UNIQUE (HOST_ID,INSTALL_PATH),
+
+    FOREIGN KEY (HOST_ID) REFERENCES QM_DBEAVER_HOST(HOST_ID)
+)
+2026-05-05 17:53:42.470 - Execute migration query: -- Product version dictionary
+CREATE TABLE QM_DBEAVER_VERSION (
+    VERSION_ID INTEGER AUTO_INCREMENT NOT NULL,
+
+    PRODUCT_NAME VARCHAR(64) DEFAULT 'DBeaver' NOT NULL,
+    VERSION_NAME VARCHAR(32) NOT NULL,
+
+    UPDATE_DEPLOY_ID INTEGER, -- Backward compatibility
+
+    UPDATE_TIME TIMESTAMP NOT NULL,
+
+    PRIMARY KEY (VERSION_ID)
+)
+2026-05-05 17:53:42.471 - Execute migration query: -- Workspace path dictionary
+CREATE TABLE QM_DBEAVER_WORKSPACE (
+    WORKSPACE_ID INTEGER AUTO_INCREMENT NOT NULL,
+
+    HOST_ID INTEGER DEFAULT 0 NOT NULL,
+    WORKSPACE_PATH VARCHAR(512) NOT NULL,      -- Workspace path on disk
+
+    UPDATE_TIME TIMESTAMP NOT NULL,
+
+    PRIMARY KEY (WORKSPACE_ID),
+    UNIQUE (HOST_ID,WORKSPACE_PATH),
+    FOREIGN KEY (HOST_ID) REFERENCES QM_DBEAVER_HOST(HOST_ID)
+)
+2026-05-05 17:53:42.473 - Execute migration query: CREATE TABLE QM_DBEAVER_PROJECT
+(
+    PROJECT_ID   INTEGER AUTO_INCREMENT NOT NULL,
+    PROJECT_NAME VARCHAR(255) NOT NULL,
+    PROJECT_UUID UUID NOT NULL,
+    PROJECT_PATH VARCHAR(1024) NOT NULL,
+    IS_ANONYMOUS BOOLEAN NULL,
+    WORKSPACE_ID INTEGER       NOT NULL,
+    UPDATE_TIME  TIMESTAMP     NOT NULL,
+
+    PRIMARY KEY (PROJECT_ID),
+    UNIQUE (WORKSPACE_ID, PROJECT_NAME),
+    FOREIGN KEY (WORKSPACE_ID) REFERENCES QM_DBEAVER_WORKSPACE (WORKSPACE_ID)
+)
+2026-05-05 17:53:42.474 - Execute migration query: -- Application run
+CREATE TABLE QM_DBEAVER_RUN (
+    RUN_ID BIGINT AUTO_INCREMENT NOT NULL,
+
+    DEPLOY_ID INTEGER NOT NULL,
+    VERSION_ID INTEGER NOT NULL,
+    WORKSPACE_ID INTEGER NOT NULL,
+
+    USER_ID INTEGER DEFAULT 0 NOT NULL,     -- Owner user
+
+    START_TIME TIMESTAMP NOT NULL,
+    STOP_TIME TIMESTAMP,
+
+    HOST_NAME VARCHAR(128),                 -- Backward compatibility
+
+    PRIMARY KEY (RUN_ID),
+    FOREIGN KEY (DEPLOY_ID) REFERENCES QM_DBEAVER_DEPLOYMENT(DEPLOY_ID),
+    FOREIGN KEY (VERSION_ID) REFERENCES QM_DBEAVER_VERSION(VERSION_ID),
+    FOREIGN KEY (WORKSPACE_ID) REFERENCES QM_DBEAVER_WORKSPACE(WORKSPACE_ID)
+)
+2026-05-05 17:53:42.480 - Execute migration query: -- User session
+CREATE TABLE QM_USER_SESSION (
+    SESSION_ID BIGINT AUTO_INCREMENT NOT NULL,
+
+    RUN_ID BIGINT NOT NULL,
+    APP_SESSION_ID VARCHAR(64) NOT NULL,     -- Application-specific session ID. Unique within application run.
+
+    USER_ID BIGINT NOT NULL,
+    USER_IP VARCHAR(128),
+
+    START_TIME TIMESTAMP NOT NULL,
+
+    PRIMARY KEY (SESSION_ID),
+    UNIQUE (RUN_ID,APP_SESSION_ID),
+    FOREIGN KEY (USER_ID) REFERENCES QM_USER(USER_ID),
+    FOREIGN KEY (RUN_ID) REFERENCES QM_DBEAVER_RUN(RUN_ID)
+)
+2026-05-05 17:53:42.483 - Execute migration query: CREATE INDEX IDX_QM_USER_SESSION_APP_SESSION_ID ON QM_USER_SESSION(APP_SESSION_ID)
+2026-05-05 17:53:42.484 - Execute migration query: -- Connection configuration
+CREATE TABLE QM_DATASOURCE (
+    DATASOURCE_ID VARCHAR(100) NOT NULL,
+
+    WORKSPACE_ID INTEGER DEFAULT 1 NOT NULL,
+
+    NAME VARCHAR(255) NOT NULL,
+    DRIVER VARCHAR(255) NOT NULL,
+    URL VARCHAR(1024) NOT NULL,
+    UPDATE_TIME TIMESTAMP NOT NULL,
+
+    PRIMARY KEY (DATASOURCE_ID),
+    FOREIGN KEY (WORKSPACE_ID) REFERENCES QM_DBEAVER_WORKSPACE(WORKSPACE_ID)
+)
+2026-05-05 17:53:42.485 - Execute migration query: -- Physical database connection info
+CREATE TABLE QM_CONNECTION (
+    CONNECTION_ID BIGINT AUTO_INCREMENT NOT NULL,
+
+    RUN_ID BIGINT NOT NULL,
+    SESSION_ID BIGINT,
+
+    WORKSPACE_ID INTEGER DEFAULT 1 NOT NULL,
+    PROJECT_ID INTEGER,
+    DATASOURCE_ID VARCHAR(100) NOT NULL,
+    INSTANCE_ID VARCHAR(64),
+
+    CONTEXT_ID VARCHAR(64),
+    CONTEXT_NAME VARCHAR(255),
+    CONNECTION_USER VARCHAR(64),
+
+    CONNECT_TIME TIMESTAMP NOT NULL,
+    DISCONNECT_TIME TIMESTAMP,
+    CONNECT_SUCCESS CHAR(1),
+
+    PRIMARY KEY (CONNECTION_ID),
+    FOREIGN KEY (RUN_ID) REFERENCES QM_DBEAVER_RUN(RUN_ID),
+    FOREIGN KEY (SESSION_ID) REFERENCES QM_USER_SESSION(SESSION_ID),
+    FOREIGN KEY (DATASOURCE_ID) REFERENCES QM_DATASOURCE(DATASOURCE_ID),
+    FOREIGN KEY (PROJECT_ID) REFERENCES QM_DBEAVER_PROJECT(PROJECT_ID)
+)
+2026-05-05 17:53:42.489 - Execute migration query: CREATE TABLE QM_EVENT_SOURCE (
+    SOURCE_ID VARCHAR(64) NOT NULL,
+
+    UPDATE_TIME TIMESTAMP NOT NULL,
+
+    PRIMARY KEY (SOURCE_ID)
+)
+2026-05-05 17:53:42.490 - Execute migration query: CREATE TABLE QM_EVENT (
+    EVENT_ID BIGINT AUTO_INCREMENT NOT NULL,
+    CONNECTION_ID BIGINT NOT NULL,
+    USER_ID BIGINT NULL,
+    SOURCE_ID VARCHAR(64),
+
+    EVENT_ACTION INTEGER NOT NULL,
+    EVENT_TYPE INTEGER NOT NULL,
+    EVENT_TIME TIMESTAMP NOT NULL,
+
+    PRIMARY KEY (EVENT_ID),
+    FOREIGN KEY (CONNECTION_ID) REFERENCES QM_CONNECTION(CONNECTION_ID),
+    FOREIGN KEY (USER_ID) REFERENCES QM_USER(USER_ID),
+    FOREIGN KEY (SOURCE_ID) REFERENCES QM_EVENT_SOURCE(SOURCE_ID)
+)
+2026-05-05 17:53:42.493 - Execute migration query: CREATE INDEX IDX_EVENT_ID_DESC ON QM_EVENT(EVENT_ID DESC)
+2026-05-05 17:53:42.494 - Execute migration query: CREATE INDEX IDX_USER_ID_EVENT_ID ON QM_EVENT(USER_ID,EVENT_ID)
+2026-05-05 17:53:42.494 - Execute migration query: CREATE TABLE QM_QUERY (QUERY_ID BIGINT AUTO_INCREMENT NOT NULL,
+USER_ID BIGINT NULL,
+QUERY_HASH BIGINT NOT NULL,
+QUERY_TEXT varchar NOT NULL,
+PRIMARY KEY (QUERY_ID),
+FOREIGN KEY (USER_ID) REFERENCES QM_USER(USER_ID))
+2026-05-05 17:53:42.497 - Execute migration query: CREATE INDEX QM_QUERY_HASH_INDEX ON QM_QUERY(QUERY_HASH)
+2026-05-05 17:53:42.497 - Execute migration query: CREATE TABLE QM_QUERY_FILTER (FILTER_ID BIGINT AUTO_INCREMENT NOT NULL,
+QUERY_ID BIGINT NOT NULL,
+FILTER_HASH BIGINT NOT NULL,
+FILTER_TEXT varchar NOT NULL,
+PRIMARY KEY (FILTER_ID),
+FOREIGN KEY (QUERY_ID) REFERENCES QM_QUERY(QUERY_ID))
+2026-05-05 17:53:42.499 - Execute migration query: CREATE INDEX QM_FILTER_HASH_INDEX ON QM_QUERY_FILTER(FILTER_HASH)
+2026-05-05 17:53:42.501 - Execute migration query: CREATE TABLE QM_STATEMENT (STATEMENT_ID BIGINT NOT NULL,
+STATEMENT_PURPOSE INTEGER NOT NULL,
+QUERY_ID BIGINT NOT NULL,
+ROW_COUNT INTEGER,
+ERROR_CODE INTEGER,
+ERROR_MESSAGE varchar,
+QUERY_SCHEMA VARCHAR (64) NULL,
+QUERY_CATALOG VARCHAR (64) NULL,
+EXECUTE_TIME INTEGER,
+FETCH_TIME INTEGER,
+PRIMARY KEY (STATEMENT_ID),
+FOREIGN KEY (STATEMENT_ID) REFERENCES QM_EVENT(EVENT_ID),
+FOREIGN KEY (QUERY_ID) REFERENCES QM_QUERY(QUERY_ID))
+2026-05-05 17:53:42.503 - Execute migration query: CREATE TABLE QM_CONNECT_ERROR (
+    USER_ID                 BIGINT NOT NULL,
+    DATASOURCE_ID           VARCHAR(100) NOT NULL,
+    CONNECTION_TIME         TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    ERROR_TYPE              VARCHAR(32) NOT NULL,
+    ERROR_MESSAGE           VARCHAR(128) NOT NULL,
+
+    FOREIGN KEY (USER_ID) REFERENCES QM_USER(USER_ID),
+    FOREIGN KEY (DATASOURCE_ID) REFERENCES QM_DATASOURCE(DATASOURCE_ID)
+)
+2026-05-05 17:53:42.506 - Execute migration query: CREATE INDEX IDX_CONNECT_ERROR_CHECK ON QM_CONNECT_ERROR(USER_ID,DATASOURCE_ID,CONNECTION_TIME,ERROR_TYPE)
+2026-05-05 17:53:42.506 - Execute migration query: CREATE TABLE QM_AI_COMPLETION_HISTORY (COMPLETION_ID BIGINT AUTO_INCREMENT NOT NULL,
+USER_ID BIGINT NOT NULL,
+DATASOURCE_ID VARCHAR (100) NOT NULL,
+LOGICAL_DATASOURCE_NAME VARCHAR (100),
+DEFAULT_CATALOG NVARCHAR (64) NULL,
+DEFAULT_SCHEMA NVARCHAR (64) NULL,
+NATURAL_TEXT varchar NOT NULL,
+SQL_TEXT varchar NULL,
+FIRST_COMPLETION_TIME TIMESTAMP NOT NULL,
+LAST_COMPLETION_TIME TIMESTAMP NOT NULL,
+COMPLETION_COUNT INTEGER NOT NULL,
+COMPLETION_ERROR VARCHAR (2048),
+QUERY_ERROR VARCHAR (2048),
+PRIMARY KEY (COMPLETION_ID),
+FOREIGN KEY (USER_ID) REFERENCES QM_USER(USER_ID),
+FOREIGN KEY (DATASOURCE_ID) REFERENCES QM_DATASOURCE(DATASOURCE_ID))
+2026-05-05 17:53:42.509 - Execute migration query: CREATE INDEX IDX_AI_HISTORY_CONNECTION ON QM_AI_COMPLETION_HISTORY(USER_ID,DATASOURCE_ID,LOGICAL_DATASOURCE_NAME,DEFAULT_CATALOG,DEFAULT_SCHEMA)
+2026-05-05 17:53:42.509 - Execute migration query: CREATE TABLE QM_AI_CONVERSATION (CONVERSATION_ID VARCHAR (36) NOT NULL,
+DATASOURCE_ID VARCHAR (100),
+USER_ID BIGINT NOT NULL,
+CAPTION NVARCHAR (100) NOT NULL,
+PROMPT_ID VARCHAR (32),
+CONTEXT_JSON varchar,
+LAST_MESSAGE_AT TIMESTAMP,
+NEXT_MESSAGE_ID INTEGER NOT NULL,
+IS_DELETED CHAR (1) NOT NULL,
+PRIMARY KEY (CONVERSATION_ID))
+2026-05-05 17:53:42.510 - Execute migration query: CREATE INDEX IDX_QM_AI_CONVERSATION_USER ON QM_AI_CONVERSATION(USER_ID)
+2026-05-05 17:53:42.511 - Execute migration query: CREATE TABLE QM_AI_CONVERSATION_MESSAGE (CONVERSATION_ID VARCHAR (36) NOT NULL,
+MESSAGE_ID INTEGER NOT NULL,
+MESSAGE_ROLE VARCHAR (16) NOT NULL,
+CONTENT varchar NOT NULL,
+DISPLAY_MESSAGE varchar,
+IS_DELETED CHAR (1) NOT NULL,
+SENT_AT TIMESTAMP NOT NULL,
+PRIMARY KEY (CONVERSATION_ID,
+MESSAGE_ID),
+FOREIGN KEY (CONVERSATION_ID) REFERENCES QM_AI_CONVERSATION(CONVERSATION_ID))
+2026-05-05 17:53:42.513 - Execute migration query: CREATE TABLE QM_AI_CONTEXT_HISTORY
+(
+    CONVERSATION_ID      VARCHAR(36) NOT NULL,
+    OBJECT_NAME          NVARCHAR(512) NOT NULL,
+    OBJECT_TYPE          VARCHAR(16) NOT NULL,
+    PRIMARY KEY (CONVERSATION_ID, OBJECT_NAME, OBJECT_TYPE),
+    FOREIGN KEY (CONVERSATION_ID) REFERENCES QM_AI_CONVERSATION (CONVERSATION_ID) ON DELETE CASCADE
+)
+2026-05-05 17:53:42.514 - Execute migration query: CREATE table QM_AI_METRICS (
+    CONVERSATION_ID     VARCHAR(36) NOT NULL,
+    MESSAGE_ID          INTEGER NOT NULL,
+    TYPE                VARCHAR(32) NOT NULL,
+    ENGINE_ID           VARCHAR(36) NOT NULL,
+    MODEL_ID            VARCHAR(36),
+    SYSTEM_PROMPT_LENGTH INT NOT NULL,
+    TIME_SPENT          BIGINT NOT NULL,
+    TOTAL_INPUT_TOKENS  INT NOT NULL,
+    CACHED_TOKENS       INT NOT NULL,
+    TOTAL_OUTPUT_TOKENS INT NOT NULL,
+    REASONING_TOKENS     INT NOT NULL,
+    PRIMARY KEY (CONVERSATION_ID, MESSAGE_ID, TYPE),
+    FOREIGN KEY (CONVERSATION_ID, MESSAGE_ID)
+        REFERENCES QM_AI_CONVERSATION_MESSAGE(CONVERSATION_ID, MESSAGE_ID)
+        ON DELETE CASCADE
+)
+2026-05-05 17:53:42.518 - Execute migration query: CREATE TABLE QM_API_CALL_LOG (ID BIGINT AUTO_INCREMENT NOT NULL,
+APP_SESSION_ID VARCHAR (64),
+API_PROTOCOL VARCHAR (32) NOT NULL,
+SERVICE_TYPE VARCHAR (10) NOT NULL,
+ENDPOINT VARCHAR (255) NOT NULL,
+HTTP_METHOD VARCHAR (16),
+ERROR_MESSAGE VARCHAR (1024),
+USERNAME VARCHAR (128),
+REQUEST_TIME TIMESTAMP NOT NULL,
+PARAMETERS VARCHAR (4000) NOT NULL,
+PARAMETERS_LONG text NULL,
+PRIMARY KEY (ID))
+2026-05-05 17:53:42.519 - Execute migration query: CREATE INDEX IDX_QM_API_CALL_LOG_REQUEST_TIME ON QM_API_CALL_LOG(REQUEST_TIME)
+2026-05-05 17:53:42.519 - Execute migration query: CREATE INDEX IDX_QM_API_CALL_LOG_USERNAME_TIME ON QM_API_CALL_LOG(USERNAME, REQUEST_TIME)
+2026-05-05 17:53:42.524 - 	Check QMDB deployment
+2026-05-05 17:53:42.537 - 	Query Manager DB server started (H2 2.1.214 (2022-06-13))
+2026-05-05 17:53:42.995 - Resetting perspective due to missing view definitions in the workbench file
+> Start DBeaver PRO Runtime [com.dbeaver.ee.runtime 2.0.202.202603091637]
+> Start DBeaver License Manager UI [com.dbeaver.ui.license 2.0.202.202603091637]
+> Start DBeaver Remote Client Model [com.dbeaver.remote.client 1.0.92.202603091637]
+> Start DBeaver Security Manager Model [org.jkiss.dbeaver.model.sm 1.0.81.202603091637]
+2026-05-05 17:53:43.204 - --> RPC call: /lmp/checkLicense
+2026-05-05 17:53:43.696 - 	<-- Call finished [/lmp/checkLicense] (492ms)
+2026-05-05 17:53:43.699 - License: DB-3J1MVZUK-ZBJA (Academic; 2026-05-04T19:50:06Z - 2027-05-04T19:50:06Z)
+> Start DBeaver Schema Compare UI [com.dbeaver.ee.scmp.ui 1.0.195.202603091637]
+> Start DBeaver PRO Authentication UI [com.dbeaver.ui.auth 1.0.95.202603091637]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.211.202603091637]
+2026-05-05 17:53:43.837 - Open [https://dbeaver.com/product/dbeaver-ee-version.xml]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.171.202603091637]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.21.0.202512020742]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.24.0.202511201732]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.ui.editors.erd 3.1.15.202603091637]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.model.erd 1.1.15.202603091637]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.259.202603091637]
+> Start DBeaver Text Editors Spelling [com.dbeaver.ui.editors.spelling 1.0.63.202603091637]
+> Start Console [org.eclipse.ui.console 3.15.0.v20251113-1013]
+> Start DBeaver Tasks View [org.jkiss.dbeaver.tasks.ui.view 1.0.123.202603091637]
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.152.202603091637]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.166.202603091637]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.152.202603091637]
+2026-05-05 17:53:45.387 - Search condition or value expression expected while facing with anyValue
+2026-05-05 17:53:45.400 - Search condition or value expression expected while facing with anyValue
+> Start Team Support UI [org.eclipse.team.ui 3.11.300.v20251105-1148]
+2026-05-05 17:56:56.858 - Connect with 'localhost' (mysql8-19cfdcbc635-78d2407e596b5f47)
+> Start DBeaver SSH Tunnels [org.jkiss.dbeaver.net.ssh 1.0.195.202603091637]
+> Start DBeaver MySQL PRO Model [com.dbeaver.db.mysql 1.0.149.202603091637]
+> Start DBeaver SSH implementation (SSHJ) [org.jkiss.dbeaver.net.ssh.sshj 1.0.195.202603091637]
+> Start org.jkiss.bundle.sshj [org.jkiss.bundle.sshj 0.34.2]
+2026-05-05 17:56:56.877 - SSHSessionController: Creating new session to s*****i@1*****0:22
+2026-05-05 17:56:56.877 - SSHSessionController: Connecting session to s*****i@1*****0:22
+2026-05-05 17:56:57.038 - net.schmizz.sshj.transport.TransportImpl: Client identity string: SSH-2.0-SSHJ_0.40.0
+2026-05-05 17:56:57.051 - net.schmizz.sshj.transport.TransportImpl: Server identity string: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14
+2026-05-05 17:56:57.155 - SSHSessionController: Set up port forwarding *****:26983 <- 1*****0:3306
+2026-05-05 17:56:57.156 - net.schmizz.sshj.connection.channel.direct.LocalPortForwarder: Listening on localhost/127.0.0.1:26983
+2026-05-05 17:56:57.172 - Execution context opened (localhost; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.198.202603091637]
+2026-05-05 17:56:57.336 - Execution context opened (localhost; Metadata; 1)
+2026-05-05 17:56:57.401 - Connected (mysql8-19cfdcbc635-78d2407e596b5f47, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2026-05-05 17:56:57.455 - Execution context opened (localhost; SQLEditor <TAREA06_SOL.sql>; 2)
+2026-05-05 17:56:58.185 - Search condition or value expression expected while facing with anyValue
+2026-05-05 17:56:58.195 - Search condition or value expression expected while facing with anyValue
+2026-05-05 17:57:14.140 - Execution context closed (localhost, 2)
+2026-05-05 17:57:14.368 - Dispose navigator model
+2026-05-05 17:57:14.432 - DBeaver is stopping
+2026-05-05 17:57:14.433 - DBeaver shutdown completed
+2026-05-05 17:57:14.475 - Shutdown desktop platform...
+2026-05-05 17:57:14.477 - Closing QMDB connection.
+2026-05-05 17:57:14.776 - QMDB stopped.
+2026-05-05 17:57:14.788 - Execution context closed (localhost, 0)
+2026-05-05 17:57:14.801 - Execution context closed (localhost, 1)
+2026-05-05 17:57:14.801 - SSHSessionController: Remove port forwarding *****:26983 <- 1*****0:3306
+2026-05-05 17:57:14.801 - net.schmizz.sshj.connection.channel.direct.LocalPortForwarder: Closing listener on localhost/127.0.0.1:26983
+2026-05-05 17:57:14.802 - SSHSessionController: Releasing session for localhost [MySQL]
+2026-05-05 17:57:14.802 - SSHSessionController: Disconnecting session to s*****i@1*****0:22
+2026-05-05 17:57:14.802 - net.schmizz.sshj.transport.TransportImpl: Disconnected - BY_APPLICATION
+2026-05-05 17:57:14.804 - Disconnected (mysql8-19cfdcbc635-78d2407e596b5f47)
+2026-05-05 17:57:14.883 - Platform shutdown completed (408ms)
+2026-05-05 18:01:38.505 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2026-05-05 18:01:38.524 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2026-05-05 18:07:56.399 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2026-05-05 18:07:56.416 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+> Start DBeaver SSH tunnels UI [org.jkiss.dbeaver.net.ssh.ui 1.0.195.202603011816]
+2026-05-05 22:08:50.839 - Execution context closed (localhost, 2)
+2026-05-05 22:08:51.101 - Dispose navigator model
+2026-05-05 22:08:51.127 - DBeaver is stopping
+2026-05-05 22:08:51.129 - Stop instance server
+2026-05-05 22:08:52.136 - Instance server has been stopped
+2026-05-05 22:08:52.136 - DBeaver shutdown completed
+2026-05-05 22:08:52.179 - Shutdown desktop platform...
+2026-05-05 22:08:52.194 - Execution context closed (localhost, 0)
+2026-05-05 22:08:52.205 - Execution context closed (localhost, 1)
+2026-05-05 22:08:52.206 - SSHSessionController: Remove port forwarding *****:58241 <- 1*****0:3306
+2026-05-05 22:08:52.207 - net.schmizz.sshj.connection.channel.direct.LocalPortForwarder: Closing listener on localhost/127.0.0.1:58241
+2026-05-05 22:08:52.207 - SSHSessionController: Releasing session for localhost [MySQL]
+2026-05-05 22:08:52.207 - SSHSessionController: Disconnecting session to s*****i@1*****0:22
+2026-05-05 22:08:52.208 - net.schmizz.sshj.transport.TransportImpl: Disconnected - BY_APPLICATION
+2026-05-05 22:08:52.210 - Disconnected (mysql8-19cfdcbc635-78d2407e596b5f47)
+2026-05-05 22:08:52.328 - Platform shutdown completed (148ms)

@@ -1,0 +1,297 @@
+2026-04-29 09:29:25.595 - DBeaver 26.0.0.202603011816 is starting
+2026-04-29 09:29:25.596 - OS: Windows 11 10.0 (amd64)
+2026-04-29 09:29:25.596 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
+2026-04-29 09:29:25.596 - Install path: 'C:\Users\sanpc\AppData\Local\DBeaver'
+2026-04-29 09:29:25.597 - Instance path: 'file:/D:/SanVic/Documents/2025(02)/DAW_DUAL(2025-2026)/BASES DE DATOS(2025-2026)/BBDD_03/DB_WORKSPACE_CASA/'
+2026-04-29 09:29:25.598 - Memory available 64Mb/1024Mb
+2026-04-29 09:29:25.601 - Initialize desktop platform...
+2026-04-29 09:29:25.692 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.11.400.v20251107-0507]
+> Start Core Resource Management [org.eclipse.core.resources 3.23.100.v20251106-1705]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.174.202603011816]
+> Start Team Support Core [org.eclipse.team.core 3.10.900.v20251104-0924]
+> Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.4.700.v20250622-1644]
+> Start Internet Connection Management UI [org.eclipse.ui.net 1.5.500.v20250611-0855]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.800.v20250613-1119]
+2026-04-29 09:29:25.867 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
+2026-04-29 09:29:25.876 - Initialize base platform...
+2026-04-29 09:29:25.884 - Platform initialized (283ms)
+2026-04-29 09:29:25.892 - Create display
+2026-04-29 09:29:26.103 - Starting instance server at http://localhost:55925
+2026-04-29 09:29:26.109 - Run workbench
+> Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.17.1000.v20251023-0611]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.300.v20251112-1253]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.600.v20251023-1358]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.900.v20251023-1511]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.800.v20250916-0937]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.700.v20250916-0927]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.39.0.v20250910-1205]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.600.v20251023-0615]
+> Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.5.900.v20251007-0832]
+> Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.16.1000.v20251114-0005]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start DBeaver AI Model [org.jkiss.dbeaver.model.ai 2.0.17.202603011816]
+> Start DBeaver AI UI [org.jkiss.dbeaver.ui.ai 1.0.76.202603011816]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.700.v20251023-1511]
+> Start JFace Text [org.eclipse.jface.text 3.29.0.v20251112-0859]
+> Start Default Text Editor [org.eclipse.ui.editors 3.20.200.v20251125-0939]
+> Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.19.400.v20251105-0815]
+2026-04-29 09:29:27.482 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.164.202603011816]
+2026-04-29 09:29:27.651 - Total database drivers: 128 (128)
+> Start Help System Core [org.eclipse.help 3.10.600.v20250613-0437]
+2026-04-29 09:29:27.716 - Create actions
+2026-04-29 09:29:28.181 - Initialize workbench window
+2026-04-29 09:29:28.193 - Finish initialization
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.174.202603011816]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.174.202603011816]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.150.202603011816]
+> Start Core Compare Support [org.eclipse.compare.core 3.8.800.v20250718-1505]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.211.202603011816]
+2026-04-29 09:29:29.978 - Open [https://dbeaver.io/product/version.xml]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.171.202603011816]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.21.0.202512020742]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.24.0.202511201732]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.ui.editors.erd 3.1.15.202603011816]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.model.erd 1.1.15.202603011816]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.67.202603011816]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.259.202603011816]
+> Start Console [org.eclipse.ui.console 3.15.0.v20251113-1013]
+> Start Debug Core [org.eclipse.debug.core 3.23.200.v20251107-0507]
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.152.202603011816]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.166.202603011816]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.152.202603011816]
+2026-04-29 09:29:30.793 - Connect with 'localhost' (mysql8-19cfdcbc635-78d2407e596b5f47)
+> Start DBeaver SSH Tunnels [org.jkiss.dbeaver.net.ssh 1.0.195.202603011816]
+> Start DBeaver SSH implementation (SSHJ) [org.jkiss.dbeaver.net.ssh.sshj 1.0.195.202603011816]
+> Start org.jkiss.bundle.sshj [org.jkiss.bundle.sshj 0.34.2]
+2026-04-29 09:29:30.823 - SSHSessionController: Creating new session to s*****i@1*****0:22
+2026-04-29 09:29:30.823 - SSHSessionController: Connecting session to s*****i@1*****0:22
+> Start JSch Core [org.eclipse.jsch.core 1.5.700.v20250723-0831]
+2026-04-29 09:29:31.019 - net.schmizz.sshj.transport.TransportImpl: Client identity string: SSH-2.0-SSHJ_0.40.0
+2026-04-29 09:29:31.026 - net.schmizz.sshj.transport.TransportImpl: Server identity string: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.14
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.69.202603011816]
+2026-04-29 09:29:31.168 - SSHSessionController: Set up port forwarding *****:37895 <- 1*****0:3306
+2026-04-29 09:29:31.172 - net.schmizz.sshj.connection.channel.direct.LocalPortForwarder: Listening on localhost/127.0.0.1:37895
+2026-04-29 09:29:31.199 - Execution context opened (localhost; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.198.202603011816]
+2026-04-29 09:29:31.541 - Execution context opened (localhost; Metadata; 1)
+2026-04-29 09:29:31.615 - Connected (mysql8-19cfdcbc635-78d2407e596b5f47, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2026-04-29 09:29:31.661 - Execution context opened (localhost; SQLEditor <TAREA06_SOL.sql>; 2)
+2026-04-29 09:29:41.373 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:29:41.385 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:29:41.390 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:29:41.391 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:29:56.777 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:29:56.781 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:29:56.782 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:29:56.784 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:30:37.870 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:30:37.873 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:30:37.874 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:30:37.875 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:30:40.079 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:30:40.083 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:30:40.084 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:30:40.085 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:31:12.706 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:31:12.712 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:31:12.713 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:31:12.714 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:31:18.937 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:31:18.940 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:32:26.913 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:32:26.917 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:32:26.918 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:32:26.919 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:32:32.901 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:32:32.904 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:32:32.905 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:32:32.905 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:33:05.171 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:33:05.175 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:33:19.008 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:33:19.012 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:33:19.012 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:33:29.261 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:33:29.265 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:33:29.266 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:33:29.267 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:34:52.658 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:34:56.935 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:35:06.178 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:35:18.976 - java.lang.NullPointerException: Cannot read the array length because "this.delimiters[k]" is null
+java.lang.NullPointerException: Cannot read the array length because "this.delimiters[k]" is null
+	at org.jkiss.dbeaver.model.sql.parser.rules.SQLDelimiterRule.evaluate(SQLDelimiterRule.java:62)
+	at org.jkiss.dbeaver.model.text.parser.TPRuleBasedScanner.nextToken(TPRuleBasedScanner.java:196)
+	at org.jkiss.dbeaver.model.sql.parser.SQLScriptParser.parseQueryImpl(SQLScriptParser.java:137)
+	at org.jkiss.dbeaver.model.sql.parser.SQLScriptParser.extractScriptQueries(SQLScriptParser.java:1008)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:524)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:86)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2026-04-29 09:35:29.506 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:35:30.617 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:35:32.267 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:35:33.705 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:36:04.125 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:36:04.129 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:36:09.011 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:36:09.014 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:36:09.014 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:36:09.015 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:36:53.299 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:36:53.306 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:36:53.307 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:36:53.308 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:36:53.316 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:37:22.727 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:37:28.517 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:37:47.415 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:37:47.419 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:37:47.419 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:37:47.420 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:37:47.429 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:38:03.407 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:38:03.411 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:38:03.412 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:38:03.412 - Search condition or value expression expected while facing with anyValue
+Exception in thread "org.eclipse.jface.text.reconciler.MonoReconciler" java.lang.NullPointerException: Cannot read the array length because "this.delimiters[k]" is null
+	at org.jkiss.dbeaver.model.sql.parser.rules.SQLDelimiterRule.evaluate(SQLDelimiterRule.java:62)
+	at org.jkiss.dbeaver.model.text.parser.TPRuleBasedScanner.nextToken(TPRuleBasedScanner.java:196)
+	at org.jkiss.dbeaver.model.sql.parser.SQLScriptParser.parseQueryImpl(SQLScriptParser.java:137)
+	at org.jkiss.dbeaver.model.sql.parser.SQLScriptParser.extractScriptQueries(SQLScriptParser.java:1008)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditorBase.extractScriptQueries(SQLEditorBase.java:959)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLReconcilingStrategy.extractQueries(SQLReconcilingStrategy.java:285)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLReconcilingStrategy.reconcile(SQLReconcilingStrategy.java:227)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLReconcilingStrategy.reconcile(SQLReconcilingStrategy.java:103)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundWorker.run(AbstractReconciler.java:201)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-04-29 09:38:05.800 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:38:05.803 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:38:05.804 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:38:05.804 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:39:14.919 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:39:14.922 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:39:28.590 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:39:28.596 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:40:13.998 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:40:13.999 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:40:14.000 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:40:14.009 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:40:14.011 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:50:16.049 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:50:16.060 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:50:16.062 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:50:19.469 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:50:19.472 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:50:19.473 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:57:41.607 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:57:41.611 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:57:41.612 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:57:41.613 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:57:43.326 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:57:43.330 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:57:43.331 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:57:43.331 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:57:44.178 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:57:44.185 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:57:44.186 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:57:44.186 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:57:46.374 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:57:46.378 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:57:46.379 - Search condition or value expression expected while facing with anyValue
+2026-04-29 09:57:46.380 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:01:45.009 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:01:45.012 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:01:45.013 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:01:45.013 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:01:45.022 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:01:45.024 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:01:46.314 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:01:46.317 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:01:46.317 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:01:46.318 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:01:46.329 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:01:46.332 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:01:50.593 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:01:50.597 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:01:50.597 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:01:50.598 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:01:50.610 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:01:50.614 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:03:36.690 - Search condition or value expression expected while facing with anyValue
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.158.202603011816]
+2026-04-29 10:15:35.114 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:35.115 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:35.116 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:35.127 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:35.130 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:39.930 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:40.498 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:46.890 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:46.892 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:46.892 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:46.902 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:46.903 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:48.095 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:51.056 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:51.057 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:51.058 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:51.068 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:51.070 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:52.375 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:52.377 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:52.377 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:52.386 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:15:52.389 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:23:30.641 - Table 'PorciTEIS.Temp_Resultados' not found in metadata catalog
+2026-04-29 10:23:30.641 - Table 'PorciTEIS.Temp_Resultados' not found in metadata catalog
+2026-04-29 10:26:17.697 - Table 'PorciTEIS.Temp_Eventos' not found in metadata catalog
+2026-04-29 10:26:17.697 - Table 'PorciTEIS.Temp_Eventos' not found in metadata catalog
+2026-04-29 10:26:17.697 - Table 'PorciTEIS.Temp_Eventos' not found in metadata catalog
+2026-04-29 10:35:05.165 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:35:07.586 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:35:07.586 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:35:07.587 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:35:09.822 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:35:14.790 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:35:14.791 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:35:17.143 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:35:17.143 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:35:17.144 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:35:17.154 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:35:18.733 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:35:28.829 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:35:28.829 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:35:28.833 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:35:28.833 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:35:28.834 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:35:28.843 - Search condition or value expression expected while facing with anyValue
+2026-04-29 10:35:38.626 - Search condition or value expression expected while facing with anyValue
+2026-04-29 11:00:44.286 - Search condition or value expression expected while facing with anyValue
+2026-04-29 11:00:44.286 - Search condition or value expression expected while facing with anyValue
+2026-04-29 11:00:44.289 - Search condition or value expression expected while facing with anyValue
+2026-04-29 11:00:44.290 - Search condition or value expression expected while facing with anyValue
+2026-04-29 11:00:44.291 - Search condition or value expression expected while facing with anyValue
+2026-04-29 11:03:00.592 - Search condition or value expression expected while facing with anyValue
+2026-04-29 11:03:00.593 - Search condition or value expression expected while facing with anyValue
+2026-04-29 11:03:07.248 - Execution context opened (localhost; SQLEditor <Script-11.sql>; 3)
+2026-04-29 11:03:15.082 - Execution context closed (localhost, 3)
+2026-04-29 11:06:03.511 - Execution context closed (localhost, 2)
+2026-04-29 11:06:03.657 - Dispose navigator model
+2026-04-29 11:06:03.678 - DBeaver is stopping
+2026-04-29 11:06:03.680 - Stop instance server
+2026-04-29 11:06:04.684 - Instance server has been stopped
+2026-04-29 11:06:04.685 - DBeaver shutdown completed
+2026-04-29 11:06:04.722 - Shutdown desktop platform...
+2026-04-29 11:06:04.736 - Execution context closed (localhost, 0)
+2026-04-29 11:06:04.746 - Execution context closed (localhost, 1)
+2026-04-29 11:06:04.746 - SSHSessionController: Remove port forwarding *****:37895 <- 1*****0:3306
+2026-04-29 11:06:04.746 - net.schmizz.sshj.connection.channel.direct.LocalPortForwarder: Closing listener on localhost/127.0.0.1:37895
+2026-04-29 11:06:04.746 - SSHSessionController: Releasing session for localhost [MySQL]
+2026-04-29 11:06:04.747 - SSHSessionController: Disconnecting session to s*****i@1*****0:22
+2026-04-29 11:06:04.747 - net.schmizz.sshj.transport.TransportImpl: Disconnected - BY_APPLICATION
+2026-04-29 11:06:04.748 - Disconnected (mysql8-19cfdcbc635-78d2407e596b5f47)
+2026-04-29 11:06:04.839 - Platform shutdown completed (117ms)
