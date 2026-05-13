@@ -5,4 +5,4 @@ eclipse.preferences.version=1
 resultset.presentation.active=plaintext
 script.title.pattern=<${connectionName}>[${database}]/${fileName}
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1774368980904
+ui.auto.update.check.time=1776181384220

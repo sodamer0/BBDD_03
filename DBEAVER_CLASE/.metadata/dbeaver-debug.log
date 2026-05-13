@@ -1,20 +1,20 @@
-2026-03-24 18:59:22.018 - DBeaver 25.2.5.202511161745 is starting
-2026-03-24 18:59:22.018 - OS: Windows 11 10.0 (amd64)
-2026-03-24 18:59:22.018 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
-2026-03-24 18:59:22.020 - Install path: 'C:\Users\a25santiagopc\AppData\Local\DBeaver'
-2026-03-24 18:59:22.020 - Instance path: 'file:/F:/A25SANTIAGOPC/3ER.PARCIAL/BBDD_03/BBDD_03/DBEAVER_CLASE/'
-2026-03-24 18:59:22.022 - Memory available 64Mb/1024Mb
-2026-03-24 18:59:22.032 - Create display
-2026-03-24 18:59:22.141 - Initialize desktop platform...
-2026-03-24 18:59:22.281 - BounceCastle bundle found. Use JCE provider BC
+2026-04-14 17:42:41.881 - DBeaver 25.2.5.202511161745 is starting
+2026-04-14 17:42:41.882 - OS: Windows 11 10.0 (amd64)
+2026-04-14 17:42:41.882 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
+2026-04-14 17:42:41.883 - Install path: 'C:\Users\a25santiagopc\AppData\Local\DBeaver'
+2026-04-14 17:42:41.883 - Instance path: 'file:/F:/A25SANTIAGOPC/3ER.PARCIAL/BBDD_03/BBDD_03/DBEAVER_CLASE/'
+2026-04-14 17:42:41.885 - Memory available 64Mb/1024Mb
+2026-04-14 17:42:41.905 - Create display
+2026-04-14 17:42:42.046 - Initialize desktop platform...
+2026-04-14 17:42:42.239 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.11.300.v20250607-0645]
 > Start Core Resource Management [org.eclipse.core.resources 3.23.0.v20250729-1759]
-> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.167.202511161745]
 > Start Núcleo del equipo de soporte [org.eclipse.team.core 3.10.800.v20250610-0708]
-2026-03-24 18:59:22.502 - Initialize base platform...
-2026-03-24 18:59:22.516 - Platform initialized (375ms)
-2026-03-24 18:59:22.672 - Starting instance server at http://localhost:50485
-2026-03-24 18:59:22.679 - Run workbench
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.167.202511161745]
+2026-04-14 17:42:42.647 - Initialize base platform...
+2026-04-14 17:42:42.663 - Platform initialized (617ms)
+2026-04-14 17:42:43.144 - Starting instance server at http://localhost:65045
+2026-04-14 17:42:43.171 - Run workbench
 > Start SWT del banco de trabajo de Eclipse e4 [org.eclipse.e4.ui.workbench.swt 0.17.900.v20250612-1000]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.200.v20250326-1945]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.500.v20250123-0754]
@@ -34,13 +34,13 @@ Warning: NLS unused message: Workbench_missingPropertyMessage in: org.eclipse.ui
 Warning: NLS unused message: UriHandlerPreferencePage_Warning_OtherApp in: org.eclipse.ui.internal.ide.messages
 > Start Editor de texto predeterminado [org.eclipse.ui.editors 3.20.100.v20250814-1056]
 > Start Entorno de trabajo [org.eclipse.ui.workbench.texteditor 3.19.300.v20250815-0722]
-2026-03-24 18:59:24.729 - Configure workbench window
+2026-04-14 17:42:55.415 - Configure workbench window
 > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.157.202511161745]
-2026-03-24 18:59:25.009 - Total database drivers: 127 (127)
+2026-04-14 17:42:55.776 - Total database drivers: 127 (127)
 > Start Núcleo del sistema de ayuda [org.eclipse.help 3.10.600.v20250613-0437]
-2026-03-24 18:59:25.127 - Create actions
-2026-03-24 18:59:25.951 - Initialize workbench window
-2026-03-24 18:59:25.982 - Finish initialization
+2026-04-14 17:42:56.018 - Create actions
+2026-04-14 17:42:57.253 - Initialize workbench window
+2026-04-14 17:42:57.281 - Finish initialization
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.167.202511161745]
 > Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.167.202511161745]
 Warning: NLS unused message: FindReplace_RegExCheckbox_label in: org.eclipse.ui.texteditor.EditorMessages
@@ -76,6 +76,7 @@ Warning: NLS unused message: FindReplace_FindNextButton_label in: org.eclipse.ui
 > Start Interfaz de usuario de manejo de conexión a Internet [org.eclipse.ui.net 1.5.500.v20250611-0855]
 > Start Internet Connection Management [org.eclipse.core.net 1.5.800.v20250613-1119]
 > Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.204.202511161745]
+2026-04-14 17:43:04.222 - Open [https://dbeaver.io/product/version.xml]
 > Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.164.202511161745]
 > Start GEF Classic Draw2d [org.eclipse.draw2d 3.20.100.202508011427]
 > Start GEF Classic GEF (MVC) [org.eclipse.gef 3.23.0.202507261623]
@@ -89,126 +90,25 @@ Warning: NLS unused message: FindReplace_FindNextButton_label in: org.eclipse.ui
 > Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.145.202511161745]
 > Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.159.202511161745]
 > Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.145.202511161745]
-2026-03-24 18:59:30.786 - Connect with '127.0.0.1' (mysql8-19cfd3acd0d-4238d1102f5d8a16)
-2026-03-24 18:59:30.820 - Execution context opened (127.0.0.1; Main; 0)
+2026-04-14 17:43:07.134 - Connect with '127.0.0.1' (mysql8-19cfd3acd0d-4238d1102f5d8a16)
+2026-04-14 17:43:07.188 - Execution context opened (127.0.0.1; Main; 0)
 > Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.191.202511161745]
-2026-03-24 18:59:31.272 - Execution context opened (127.0.0.1; Metadata; 1)
-2026-03-24 18:59:31.308 - Error reading SQL keywords: Unknown column 'RESERVED' in 'WHERE'
-2026-03-24 18:59:31.404 - Connected (mysql8-19cfd3acd0d-4238d1102f5d8a16, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
-2026-03-24 18:59:31.478 - Execution context opened (127.0.0.1; SQLEditor <Script-3.sql>; 2)
-> Start Data Transfer UI [org.jkiss.dbeaver.data.transfer.ui 1.0.151.202511161745]
-2026-03-24 19:00:00.683 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
-2026-03-24 19:00:00.753 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2026-04-14 17:43:07.507 - Execution context opened (127.0.0.1; Metadata; 1)
+2026-04-14 17:43:07.549 - Error reading SQL keywords: Unknown column 'RESERVED' in 'WHERE'
+2026-04-14 17:43:07.647 - Connected (mysql8-19cfd3acd0d-4238d1102f5d8a16, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2026-04-14 17:43:07.728 - Execution context opened (127.0.0.1; SQLEditor <EQUINOTEIS_VISTAS_01.sql>; 2)
+2026-04-14 17:43:08.549 - Can't get column 'SRS_ID': Column 'SRS_ID' not found.
+2026-04-14 17:45:24.374 - Execution context closed (127.0.0.1, 2)
+2026-04-14 17:45:24.461 - Execution context opened (127.0.0.1; SQLEditor <Script-4.sql>; 3)
+2026-04-14 17:45:26.032 - Execution context closed (127.0.0.1, 3)
+2026-04-14 18:01:55.226 - Execution context opened (127.0.0.1; SQLEditor <Script-5.sql>; 4)
+2026-04-14 18:02:47.129 - Execution context closed (127.0.0.1, 4)
+2026-04-14 18:02:51.989 - Execution context opened (127.0.0.1; SQLEditor <Script-7.sql>; 5)
 > Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.151.202511161745]
-2026-03-24 19:00:13.629 - Execution context closed (127.0.0.1, 0)
-2026-03-24 19:00:13.641 - Execution context closed (127.0.0.1, 1)
-2026-03-24 19:00:13.653 - Execution context closed (127.0.0.1, 2)
-2026-03-24 19:00:13.653 - Disconnected (mysql8-19cfd3acd0d-4238d1102f5d8a16)
-2026-03-24 19:00:16.253 - Connect with '127.0.0.1' (mysql8-19cfd3acd0d-4238d1102f5d8a16)
-2026-03-24 19:00:16.254 - Execution context opened (127.0.0.1; Main; 3)
-2026-03-24 19:00:16.258 - Execution context opened (127.0.0.1; Metadata; 4)
-2026-03-24 19:00:16.262 - Error reading SQL keywords: Unknown column 'RESERVED' in 'WHERE'
-2026-03-24 19:00:16.278 - Execution context opened (127.0.0.1; SQLEditor <Script-3.sql>; 5)
-2026-03-24 19:00:16.331 - Connected (mysql8-19cfd3acd0d-4238d1102f5d8a16, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
-2026-03-24 19:00:22.689 - Execution context closed (127.0.0.1, 5)
-2026-03-24 19:02:03.941 - Execution context opened (127.0.0.1; SQLEditor <Script-4.sql>; 6)
-2026-03-24 19:04:40.901 - Error reading SQL keywords: Unknown column 'RESERVED' in 'WHERE'
-2026-03-24 19:04:52.833 - Datasource mysql8-19cfcee8be4-49c3acdce2813027 not found in project General (/General/Scripts/Script-1.sql)
-2026-03-24 19:04:52.834 - Datasource mysql8-19cfcee8be4-49c3acdce2813027 not found in project General (/General/Scripts/Script.sql)
-2026-03-24 19:04:58.100 - Execution context opened (127.0.0.1; SQLEditor <Script-5.sql>; 7)
-2026-03-24 19:06:37.616 - Can't get column 'SRS_ID': Column 'SRS_ID' not found.
-2026-03-24 19:06:55.845 - Table 'equinoteis.Raza_VIEW' not found in metadata catalog
-2026-03-24 19:06:55.845 - Table 'equinoteis.Raza_VIEW' not found in metadata catalog
-2026-03-24 19:06:55.846 - Table 'equinoteis.Raza_VIEW' not found in metadata catalog
-2026-03-24 19:06:55.846 - Table 'equinoteis.Raza_VIEW' not found in metadata catalog
-2026-03-24 19:06:55.846 - Table 'equinoteis.Raza_VIEW' not found in metadata catalog
-2026-03-24 19:06:55.846 - Table 'equinoteis.Raza_VIEW' not found in metadata catalog
-2026-03-24 19:06:55.847 - Table 'equinoteis.Raza_VIEW' not found in metadata catalog
-2026-03-24 19:08:15.531 - Execution context opened (127.0.0.1; SQLEditor <Script-6.sql>; 8)
-2026-03-24 19:08:51.947 - Table 'equinoteis.Raza_VIEW2' not found in metadata catalog
-2026-03-24 19:08:51.948 - Table 'equinoteis.Raza_VIEW2' not found in metadata catalog
-2026-03-24 19:08:51.948 - Table 'equinoteis.Raza_VIEW2' not found in metadata catalog
-2026-03-24 19:08:51.948 - Table 'equinoteis.Raza_VIEW2' not found in metadata catalog
-2026-03-24 19:08:51.948 - Table 'equinoteis.Raza_VIEW2' not found in metadata catalog
-2026-03-24 19:08:51.948 - Table 'equinoteis.Raza_VIEW2' not found in metadata catalog
-2026-03-24 19:08:51.948 - Table 'equinoteis.Raza_VIEW2' not found in metadata catalog
-2026-03-24 19:13:07.338 - Table 'equinoteis.Raza_VIEW' not found in metadata catalog
-2026-03-24 19:13:07.339 - Table 'equinoteis.Raza_VIEW' not found in metadata catalog
-2026-03-24 19:13:07.339 - Table 'equinoteis.Raza_VIEW' not found in metadata catalog
-2026-03-24 19:13:07.339 - Table 'equinoteis.Raza_VIEW' not found in metadata catalog
-2026-03-24 19:13:07.339 - Table 'equinoteis.Raza_VIEW' not found in metadata catalog
-2026-03-24 19:13:07.339 - Table 'equinoteis.Raza_VIEW' not found in metadata catalog
-2026-03-24 19:13:07.339 - Table 'equinoteis.Raza_VIEW' not found in metadata catalog
-2026-03-24 19:23:54.818 - Table 'equinoteis.Raza_ES_VIEW' not found in metadata catalog
-2026-03-24 19:23:54.819 - Table 'equinoteis.Raza_ES_VIEW' not found in metadata catalog
-2026-03-24 19:23:54.819 - Table 'equinoteis.Raza_ES_VIEW' not found in metadata catalog
-2026-03-24 19:23:54.819 - Table 'equinoteis.Raza_ES_VIEW' not found in metadata catalog
-2026-03-24 19:23:54.819 - Table 'equinoteis.Raza_ES_VIEW' not found in metadata catalog
-2026-03-24 19:24:29.025 - Table 'equinoteis.Raza_US_VIEW' not found in metadata catalog
-2026-03-24 19:24:29.026 - Table 'equinoteis.Raza_US_VIEW' not found in metadata catalog
-2026-03-24 19:24:29.026 - Table 'equinoteis.Raza_US_VIEW' not found in metadata catalog
-2026-03-24 19:24:29.026 - Table 'equinoteis.Raza_US_VIEW' not found in metadata catalog
-2026-03-24 19:24:29.026 - Table 'equinoteis.Raza_US_VIEW' not found in metadata catalog
-2026-03-24 19:34:14.758 - Table 'equinoteis.Raza_OTRAS_VIEW' not found in metadata catalog
-2026-03-24 19:34:14.759 - Table 'equinoteis.Raza_OTRAS_VIEW' not found in metadata catalog
-2026-03-24 19:34:14.759 - Table 'equinoteis.Raza_OTRAS_VIEW' not found in metadata catalog
-2026-03-24 19:34:14.759 - Table 'equinoteis.Raza_OTRAS_VIEW' not found in metadata catalog
-2026-03-24 19:34:14.759 - Table 'equinoteis.Raza_OTRAS_VIEW' not found in metadata catalog
-2026-03-24 19:36:34.528 - Table 'equinoteis.Raza_OTRAS_VIEW' not found in metadata catalog
-2026-03-24 19:36:34.529 - Table 'equinoteis.Raza_OTRAS_VIEW' not found in metadata catalog
-2026-03-24 19:36:34.529 - Table 'equinoteis.Raza_OTRAS_VIEW' not found in metadata catalog
-2026-03-24 19:36:34.529 - Table 'equinoteis.Raza_OTRAS_VIEW' not found in metadata catalog
-2026-03-24 19:36:34.529 - Table 'equinoteis.Raza_OTRAS_VIEW' not found in metadata catalog
-2026-03-24 19:36:34.529 - Table 'equinoteis.Raza_OTRAS_VIEW' not found in metadata catalog
-2026-03-24 20:04:56.947 - Error applying completion proposal
-org.eclipse.jface.text.BadLocationException
-	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1079)
-	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(SynchronizableDocument.java:271)
-	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1109)
-	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(SynchronizableDocument.java:259)
-	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLEditorQueryCompletionProposal.apply(SQLEditorQueryCompletionProposal.java:144)
-	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:999)
-	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.lambda$0(CompletionProposalPopup.java:514)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
-	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:502)
-	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1874)
-	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLContentAssistant.lambda$0(SQLContentAssistant.java:50)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4135)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3751)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
-	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:311)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:913)
-	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:659)
-	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1682)
-2026-03-24 20:07:44.130 - Table 'Razas_Unidas_VIEW' not found in metadata catalog
-2026-03-24 20:07:44.130 - Table 'Razas_Unidas_VIEW' not found in metadata catalog
-2026-03-24 20:07:44.132 - Table 'Razas_Unidas_VIEW' not found in metadata catalog
-2026-03-24 20:07:44.132 - Table 'Razas_Unidas_VIEW' not found in metadata catalog
-2026-03-24 20:07:44.132 - Table 'Razas_Unidas_VIEW' not found in metadata catalog
-2026-03-24 20:07:44.132 - Table 'Razas_Unidas_VIEW' not found in metadata catalog
-2026-03-24 20:07:53.238 - Table 'Razas_Unidas_VIEW' not found in metadata catalog
-2026-03-24 20:07:53.238 - Table 'Razas_Unidas_VIEW' not found in metadata catalog
-2026-03-24 20:07:53.238 - Table 'Razas_Unidas_VIEW' not found in metadata catalog
-2026-03-24 20:07:53.238 - Table 'Razas_Unidas_VIEW' not found in metadata catalog
-2026-03-24 20:07:53.238 - Table 'Razas_Unidas_VIEW' not found in metadata catalog
-2026-03-24 20:07:53.238 - Table 'Razas_Unidas_VIEW' not found in metadata catalog
-2026-03-24 20:28:20.902 - SWT resource leak detected
+2026-04-14 18:03:50.026 - Error reading SQL keywords: Unknown column 'RESERVED' in 'WHERE'
+2026-04-14 18:04:43.051 - Execution context opened (127.0.0.1; SQLEditor <Script-8.sql>; 6)
+2026-04-14 18:04:58.498 - Error reading SQL keywords: Unknown column 'RESERVED' in 'WHERE'
+2026-04-14 18:05:39.706 - SWT resource leak detected
 java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:191)
 	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:124)
@@ -245,10 +145,281 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:913)
 	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:659)
 	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1682)
-2026-03-24 20:28:29.213 - Execution context closed (127.0.0.1, 6)
-2026-03-24 20:28:29.258 - Execution context closed (127.0.0.1, 8)
-2026-03-24 20:28:29.342 - Execution context closed (127.0.0.1, 7)
-2026-03-24 20:28:29.644 - Dispose navigator model
-2026-03-24 20:28:29.677 - DBeaver is stopping
-2026-03-24 20:28:29.680 - Stop instance server
-2026-03-24 20:28:30.691 - DBeaver shutdown completed
+2026-04-14 18:06:06.448 - SWT resource leak detected
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:191)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:124)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:609)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:382)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:331)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:309)
+	at org.jkiss.dbeaver.ui.DBeaverIcons.getCompositeIcon(DBeaverIcons.java:171)
+	at org.jkiss.dbeaver.ui.DBeaverIcons.getIconDescriptor(DBeaverIcons.java:123)
+	at org.jkiss.dbeaver.ui.DBeaverIcons.getImage(DBeaverIcons.java:94)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor.refreshEditorIconAndTitle(SQLEditor.java:3324)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor.onDataSourceChange(SQLEditor.java:3236)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor.lambda$40(SQLEditor.java:3490)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4135)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3751)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:311)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:913)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:659)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1682)
+2026-04-14 18:07:22.526 - Execution context opened (127.0.0.1; SQLEditor <Script-7.sql>; 7)
+2026-04-14 18:07:29.943 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:29.951 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:29.958 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:29.965 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:29.977 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:29.986 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.001 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.017 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.031 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.037 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.045 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.051 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.058 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.065 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.072 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.080 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.086 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.095 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.101 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.110 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.116 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.124 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.131 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.139 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.148 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.157 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.164 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.171 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.178 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.186 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.195 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.201 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.208 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.220 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.233 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.241 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.249 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.256 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.262 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.269 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.275 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.283 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:30.291 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.072 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.090 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.096 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.102 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.116 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.123 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.130 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.137 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.143 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.150 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.156 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.162 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.170 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.176 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.183 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.189 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.197 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.203 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.209 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.215 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.222 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.229 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.236 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.242 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.249 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.253 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.261 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.267 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.273 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.280 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.288 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.295 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.301 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.308 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.315 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.320 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.326 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.332 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.340 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.346 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.352 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.359 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.364 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.370 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.377 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:07:32.382 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:08:06.951 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1146] [42S02]: Table 'datosgalicia_ex.poblacion' doesn't exist
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:136)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:694)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:609)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:468)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:248)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'datosgalicia_ex.poblacion' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:332)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	... 7 more
+2026-04-14 18:08:09.571 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:08:09.585 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:08:09.591 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:08:09.597 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:08:09.604 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:08:09.612 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:08:09.624 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:08:09.631 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:08:09.637 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:08:09.644 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:08:09.650 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:08:09.657 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:08:09.663 - Duplicate object name 'POBLACIÓN' in cache . Last value: datosgalicia_ex.población
+2026-04-14 18:10:16.161 - Error while analyzing query text: #------------------------------------------------------
+#	CREACIÓN DE LA TABLA Población
+#------------------------------------------------------
+#	idPoblación			clave primaria y autoincrementable
+#	Año					entero tipo YEAR, no puede ser nulo
+#	Mujeres				entero positivo,  no puede ser nulo
+#	Hombres				entero positivo,  no puede ser nulo
+#	OtrosDatos			cadena de 200 caracteres
+#	Concello			entero y apunta a Concello
+#------------------------------------------------------
+create table Poblacion (
+	idPoblación			int					AUTO_INCREMENT,
+    Año					YEAR				NOT NULL,
+    Mujeres				int					NOT NULL,
+    Hombres				int					NOT NULL,
+    OtrosDatos			varchar( 200 ),
+    Concello			int					NOT NULL,
+    CONSTRAINT	PK_Poblacion				PRIMARY KEY ( idPoblacin ),
+    CONSTRAINT	FK_Población_Concello		FOREIGN KEY ( Concello )		REFERENCES	Concello( idConcello ),
+    CONSTRAINT	Número_Mujeres_Negativo		CHECK( Mujeres >= 0 ),
+    CONSTRAINT	Número_Hombres_Negativo		CHECK( Hombres >= 0 )
+)
+java.lang.IllegalStateException: Rows data was not resolved yet
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.getRowsDataContext(SQLQueryRowsSourceModel.java:52)
+	at org.jkiss.dbeaver.model.sql.semantics.model.ddl.SQLQueryColumnConstraintSpec.propagateForReferencedEntity(SQLQueryColumnConstraintSpec.java:118)
+	at org.jkiss.dbeaver.model.sql.semantics.model.ddl.SQLQueryTableConstraintSpec.resolveRelations(SQLQueryTableConstraintSpec.java:116)
+	at org.jkiss.dbeaver.model.sql.semantics.model.ddl.SQLQueryTableCreateModel.resolveObjectAndRowsReferences(SQLQueryTableCreateModel.java:139)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.resolveRelations(SQLQueryModel.java:72)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:154)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:1026)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:605)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:85)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2026-04-14 18:15:39.566 - Error reading SQL keywords: Unknown column 'RESERVED' in 'WHERE'
+2026-04-14 18:15:51.388 - Error reading SQL keywords: Unknown column 'RESERVED' in 'WHERE'
+2026-04-14 18:17:26.676 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1007] [HY000]: Can't create database 'datosgalicia_ex'; database exists
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:136)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:694)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:606)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:468)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:248)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Can't create database 'datosgalicia_ex'; database exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:332)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	... 8 more
+2026-04-14 18:18:05.392 - Error reading SQL keywords: Unknown column 'RESERVED' in 'WHERE'
+2026-04-14 18:18:41.518 - SWT resource leak detected
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:191)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:124)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:609)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:382)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:331)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:309)
+	at org.jkiss.dbeaver.ui.DBeaverIcons.getCompositeIcon(DBeaverIcons.java:171)
+	at org.jkiss.dbeaver.ui.DBeaverIcons.getIconDescriptor(DBeaverIcons.java:123)
+	at org.jkiss.dbeaver.ui.DBeaverIcons.getImage(DBeaverIcons.java:94)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor.refreshEditorIconAndTitle(SQLEditor.java:3324)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor.onDataSourceChange(SQLEditor.java:3236)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor.lambda$40(SQLEditor.java:3490)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4135)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3751)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:311)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:913)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:659)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1682)
+2026-04-14 18:19:56.348 - Execution context opened (127.0.0.1; SQLEditor <Script-7.sql>; 8)
+2026-04-14 18:20:11.363 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1146] [42S02]: Table 'datosgalicia_id.población' doesn't exist
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:136)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:694)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:587)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleElement(SQLQueryJob.java:609)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:468)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:248)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'datosgalicia_id.población' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:332)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:134)
+	... 7 more
+> Start Soporte de búsqueda [org.eclipse.search 3.17.300.v20250714-0728]
+2026-04-14 18:22:30.580 - Error reading SQL keywords: Unknown column 'RESERVED' in 'WHERE'
+2026-04-14 18:22:36.898 - Error reading SQL keywords: Unknown column 'RESERVED' in 'WHERE'
+2026-04-14 20:46:39.065 - Execution context closed (127.0.0.1, 5)
+2026-04-14 20:46:39.130 - Execution context closed (127.0.0.1, 7)
+2026-04-14 20:46:39.178 - Execution context closed (127.0.0.1, 8)
+2026-04-14 20:46:39.252 - Execution context closed (127.0.0.1, 6)
+2026-04-14 20:46:39.584 - Dispose navigator model
+2026-04-14 20:46:39.640 - DBeaver is stopping
+2026-04-14 20:46:39.670 - Stop instance server
+2026-04-14 20:46:40.653 - DBeaver shutdown completed
